@@ -5,7 +5,10 @@ FLAGS = flags.FLAGS
 
 
 #PREFIX = "/Users/huangruozi/Desktop/transfer/transfer1/"
-PREFIX = "/home/mlsnrs/data/hrz/transfer2/"
+# PREFIX = "/home/mlsnrs/data/hrz/transfer2/"
+PREFIX = "/home/morino/code/text_style_transfer_via_feature_transforms/"
+
+
 flags.DEFINE_string('train_path',PREFIX + 'data/yelp/sentiment.train', "path for training dataset")
 flags.DEFINE_integer('minlen', 5, "minimum size of a legal sent")
 flags.DEFINE_integer('maxlen', 10, "maximal size of a legal sent")

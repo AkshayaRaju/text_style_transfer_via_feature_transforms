@@ -1,6 +1,6 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]='1' 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] ='3'
+os.environ["CUDA_VISIBLE_DEVICES"]='0' 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] ='0'
 from keras import backend as K
 K.clear_session()
 import tensorflow as tf
@@ -16,7 +16,7 @@ from util import *
 
 np.set_printoptions(threshold=np.inf)
 
-MLE_pretrain = True
+MLE_pretrain = False
 
 def transfer(vec1,vec2):#seq_num * dim_h
 
@@ -25,20 +25,24 @@ def transfer(vec1,vec2):#seq_num * dim_h
     vec1=vec1-m1
     vec2=vec2-m2
 
+    
     vec1=np.transpose(vec1)#dim_h * seq_num 
-    covar1=np.dot(vec1,vec1.T)
-    vec2=np.transpose(vec2)
-    covar2=np.dot(vec2,vec2.T)
-    #print(covar2)
 
+    area = vec1.shape[1] - 1
+    covar1=np.dot(vec1,vec1.T)/area
+    print(covar1.shape)
+    vec2=np.transpose(vec2)
+    covar2=np.dot(vec2,vec2.T)/area
+    #print(covar2)
+    print(np.linalg.cond(covar1))
 
     evals1,evecs1 = eig(covar1)
-    print(evals1)
-    evals1 = np.diag(np.power(np.abs(evals1),-1/2))
+    # print(evals1)
+    evals1 = np.diag(np.power(evals1,-1/2))
 
     evals2,evecs2 = eig(covar2)
-    print(evals2)
-    evals2=np.diag(np.power(np.abs(evals2),1/2))
+    # print(evals2)
+    evals2=np.diag(np.power(evals2,1/2))
 
     fc=np.dot(np.dot(np.dot(evecs1,evals1),evecs1.T),vec1)
     fcs=np.dot(np.dot(np.dot(evecs2,evals2),evecs2.T),fc)
@@ -103,11 +107,12 @@ if __name__ == '__main__':
 
     if MLE_pretrain:
         saver.restore(sess,"save/MLE_5_100.ckpt")
-        print(model.G_MLE.get_trainable_weights()[1])
+        # print(model.G_MLE.get_trainable_weights()[1])
         for i in range(len(model.G_MLE.get_trainable_weights())):
-            print(model.G_MLE.get_trainable_weights()[i])
+            pass
+            # print(model.G_MLE.get_trainable_weights()[i])
             #print(sess.run(model.G_MLE.get_trainable_weights()[i]))
-        print(sess.run(model.G_MLE.get_trainable_weights()[1]))
+        # print(sess.run(model.G_MLE.get_trainable_weights()[1]))
     else:
         ite =1
         prob=0
