@@ -123,16 +123,17 @@ class yelp_dataloader(object):
 		#pretrain_emb(datas,minconut)
 
 		words = [word for sent in datas for word in sent]
-		cnt = Counter(words)
-		
+	
+
+		cnt = sorted(Counter(words).items(), key=lambda obj: obj[0])
+
 		cout = 0
 		for word in cnt:
-			if cnt[word] >= minconut and word!='<pad>' and word!='<go>' and word!='<eos>' and word!='<unk>':
-				self.word2id[word] = len(self.word2id)
-				self.id2word.append(word)
+			if word[1] >= minconut and word[0]!='<pad>' and word[0]!='<go>' and word[0]!='<eos>' and word[0]!='<unk>':
+				self.word2id[word[0]] = len(self.word2id)
+				self.id2word.append(word[0])
 			else:
 				cout += 1
-
 		
 		self.vocab_size = len(self.word2id)
 		print("vocabulary size is {}".format(self.vocab_size))
@@ -184,6 +185,7 @@ class yelp_dataloader(object):
 		self.batch_num = len(self.batches)
 		self.pointer = -1
 
+
 	def next_batch(self):
 		self.pointer = (self.pointer + 1) % self.batch_num
 		return self.batches[self.pointer]
@@ -205,6 +207,13 @@ if __name__ == '__main__':
 	print(batch["src_seq"][0])
 	print(a[0])
 	'''
+
+
+
+
+
+
+
 
 
 
