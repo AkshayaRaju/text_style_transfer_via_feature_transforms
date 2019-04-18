@@ -16,7 +16,7 @@ from util import *
 
 np.set_printoptions(threshold=np.inf)
 
-MLE_pretrain = True
+MLE_pretrain = False
 
 def transfer(vec1,vec2):#seq_num * dim_h
 
@@ -33,11 +33,11 @@ def transfer(vec1,vec2):#seq_num * dim_h
 
 
     evals1,evecs1 = eig(covar1)
-    print(evals1)
+    #print(evals1)
     evals1 = np.diag(np.power(np.abs(evals1),-1/2))
 
     evals2,evecs2 = eig(covar2)
-    print(evals2)
+    #print(evals2)
     evals2=np.diag(np.power(np.abs(evals2),1/2))
 
     fc=np.dot(np.dot(np.dot(evecs1,evals1),evecs1.T),vec1)
@@ -89,30 +89,28 @@ if __name__ == '__main__':
     yelp_data = yelp_dataloader(FLAGS.train_path,FLAGS.maxlen,FLAGS.minlen,FLAGS.batch_size)
     FLAGS.vocab_size = yelp_data.vocab_size
     word_embeddings = load_embeddings(yelp_data, FLAGS.embedding_path)
-
     print("data preparation finished")
 
     config = tf.ConfigProto()
     sess = tf.Session(config=config) 
     model, merged, writer = create_model(sess, FLAGS, pretrained = False, data = yelp_data, word_embeddings = word_embeddings)
-    #saver = tf.train.Saver()
-    #var_list=model.G_MLE.get_trainable_weights()
+   
     var_list=model.G_MLE.get_trainable_weights()
-
     saver=tf.train.Saver(var_list=var_list)
+    #saver=tf.train.Saver()
 
     if MLE_pretrain:
         saver.restore(sess,"save/MLE_5_100.ckpt")
         print(model.G_MLE.get_trainable_weights()[1])
-        for i in range(len(model.G_MLE.get_trainable_weights())):
-            print(model.G_MLE.get_trainable_weights()[i])
-            #print(sess.run(model.G_MLE.get_trainable_weights()[i]))
-        print(sess.run(model.G_MLE.get_trainable_weights()[1]))
+        #for i in range(len(model.G_MLE.get_trainable_weights())):
+            #print(model.G_MLE.get_trainable_weights()[i])
+            #print(sess.run(model.G_MLE.get_trainable_weights()[i])[0])
+        
     else:
         ite =1
         prob=0
         #test MLE
-        for e in range(2):           
+        for e in range(6):           
             yelp_data.reset()
             prob=0.2*e
             print("epoch: {},schedule prob is {}".format(e,prob))
@@ -133,18 +131,18 @@ if __name__ == '__main__':
                     for i in range(min(4, len(ost))):
                         print("Sample {}. {} \n -> {} \n".format(i, ' '.join(ost[i]),  ' '.join(ae[i])))
         save_path = saver.save(sess,"save/MLE_5_100.ckpt")
-        for i in range(len(model.G_MLE.get_trainable_weights())):
-            print(model.G_MLE.get_trainable_weights()[i])
-            #print(sess.run(model.G_MLE.get_trainable_weights()[i]))
-        print(sess.run(model.G_MLE.get_trainable_weights()[1]))
+        #for i in range(len(model.G_MLE.get_trainable_weights())):
+            #print(model.G_MLE.get_trainable_weights()[i])
+            #print(sess.run(model.G_MLE.get_trainable_weights()[i])[0])
+        
+        
 
-    
     vec1=sess.run(model.G_MLE.encoder_state,feed_dict={model.G_MLE.data:yelp_data.data1}) #seq_num * dim_h
     vec2=sess.run(model.G_MLE.encoder_state,feed_dict={model.G_MLE.data:yelp_data.data2})
 
     trans_vec1=transfer(vec1,vec2).tolist()
     trans_vec1 = trans_vec1[:1000]
-    trans_seq=sess.run(model.G_MLE.sample1,feed_dict={model.G_MLE.hidden_state_in:vec1[:10]})
+    trans_seq=sess.run(model.G_MLE.sample1,feed_dict={model.G_MLE.hidden_state_in:trans_vec1})
     data1 = [[yelp_data.id2word[i] for i in sent] for sent in yelp_data.data1]
     data1 = strip_eos(strip_pad(data1))
     trans_seq = [[yelp_data.id2word[i] for i in sent] for sent in trans_seq]
