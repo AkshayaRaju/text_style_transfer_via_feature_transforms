@@ -23,7 +23,7 @@ np.set_printoptions(threshold=np.inf)
 max_epoch = 20
 
 
-MLE_pretrain = False
+MLE_pretrain = True
 
 def transfer(vec1,vec2):#seq_num * dim_h
 
@@ -167,7 +167,7 @@ if __name__ == '__main__':
     #var_list=model.G_MLE.get_trainable_weights()
     var_list=model.G_MLE.get_trainable_weights()
     
-    save_path_ = "save/MLE_{}_{}.ckpt".format(max_epoch, FLAGS.dim_e)
+    save_path_ = "save/MLE_{}_{}_new.ckpt".format(max_epoch, FLAGS.dim_e)
 
     saver=tf.train.Saver(var_list=var_list)
 
@@ -215,7 +215,7 @@ if __name__ == '__main__':
 
     trans_vec1=transfer(vec1,vec2).tolist()
     trans_vec1 = trans_vec1[:1000]
-    trans_seq=sess.run(model.G_MLE.sample1,feed_dict={model.G_MLE.hidden_state_in:vec1[:10]})
+    trans_seq=sess.run(model.G_MLE.sample1,feed_dict={model.G_MLE.hidden_state_in:vec1[:1000]})
     data1 = [[yelp_data.id2word[i] for i in sent] for sent in yelp_data.data1]
     data1 = strip_eos(strip_pad(data1))
     trans_seq = [[yelp_data.id2word[i] for i in sent] for sent in trans_seq]

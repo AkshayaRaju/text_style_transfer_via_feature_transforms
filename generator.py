@@ -138,7 +138,7 @@ class SeqTranslator(object):
         softmax = softmax_word_sample(self.dropout_rate, self.variables["proj_W"], self.variables["proj_b"], self.variables["embedding_table"])
         self.decoder_inps_mle=tf.nn.embedding_lookup(self.variables["embedding_table"], self.inputs["shifted_src_seq"]) # batch_size * seq_len * d_emb
         self.prob_mle, self.sample ,self.logit_mle= mle_decode(decoder_state, self.decoder_inps_mle,self.maxlen, 
-            self.modules["decoder_cell"], softmax,self.inputs["schedule_prob"])
+            self.modules["encoder_cell"], softmax,self.inputs["schedule_prob"])
 
 
         self.data=tf.placeholder(dtype = tf.int32, shape = (None, None))
@@ -149,7 +149,7 @@ class SeqTranslator(object):
 
         self.hidden_state_in=tf.placeholder(dtype = tf.float32, shape = (None, None))
         inp=tf.nn.embedding_lookup(self.variables["embedding_table"],tf.zeros(shape=[tf.shape(self.hidden_state_in)[0]],dtype=tf.int32))
-        _, self.sample1 ,_ = mle_decode1(self.hidden_state_in,inp,self.maxlen,self.modules["decoder_cell"],softmax) 
+        _, self.sample1 ,_ = mle_decode1(self.hidden_state_in,inp,self.maxlen,self.modules["encoder_cell"],softmax) 
                 
 
 
