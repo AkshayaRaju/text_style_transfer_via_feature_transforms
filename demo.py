@@ -13,13 +13,17 @@ import sys
 import numpy as np
 from numpy.linalg import eig
 from util import *
+from bert_serving.client import BertClient
+
+BUILD_BERT = False
+if(BUILD_BERT): bc = BertClient()
 
 np.set_printoptions(threshold=np.inf)
 
 max_epoch = 20
 
 
-MLE_pretrain = True
+MLE_pretrain = False
 
 def transfer(vec1,vec2):#seq_num * dim_h
 
@@ -69,6 +73,45 @@ def transfer(vec1,vec2):#seq_num * dim_h
     return fcs.T+m2
 
 
+
+
+# to query the bert embedding (the first version only token)
+def bert_embeddings(data):
+    embeddings = []
+    batch = []
+    MAX_SIZE = 256
+    
+    # do batching
+    for k in data.word2id:
+        if(len(batch) == MAX_SIZE):
+            # encode the batched tokens
+            outs = bc.encode(batch)
+            for i, e in enumerate(outs):
+                row = [batch[i]]
+                row.extend(e.tolist())
+                embeddings.append(row)
+            batch.clear()
+        else:
+            batch.append(k)
+    if(len(batch) > 0):
+        # encode the batched tokens
+        outs = bc.encode(batch)
+        for i, e in enumerate(outs):
+            row = [batch[i]]
+            row.extend(e.tolist())
+            embeddings.append(row)
+
+    print(len(embeddings))
+    # print(embeddings[0])
+    # save the file
+    f = open(FLAGS.embedding_path, 'w+')
+    writer = csv.writer(f, delimiter = ' ')
+    for row in embeddings:
+        writer.writerow(row)
+    return embeddings
+        
+        
+
 def load_embeddings(data, vector_file):
     dim_e = FLAGS.dim_e
     embeddings = np.zeros(shape = (data.vocab_size, dim_e+4), dtype = np.float32)
@@ -111,8 +154,10 @@ if __name__ == '__main__':
     #with K.get_session():
     yelp_data = yelp_dataloader(FLAGS.train_path,FLAGS.maxlen,FLAGS.minlen,FLAGS.batch_size)
     FLAGS.vocab_size = yelp_data.vocab_size
+    if(BUILD_BERT):  bert_embeddings(yelp_data)
     word_embeddings = load_embeddings(yelp_data, FLAGS.embedding_path)
 
+    # sys.exit(0)
     print("data preparation finished")
 
     config = tf.ConfigProto()
@@ -140,7 +185,7 @@ if __name__ == '__main__':
         #test MLE
         for e in range(max_epoch):           
             yelp_data.reset()
-            prob=0.2*e
+            prob=0.05*e
             print("epoch: {},schedule prob is {}".format(e,prob))
             schedule_prob=FLAGS.batch_size*[prob]
             for c in range(1,1+yelp_data.batch_num):
