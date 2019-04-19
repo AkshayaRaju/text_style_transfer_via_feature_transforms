@@ -16,7 +16,10 @@ from util import *
 
 np.set_printoptions(threshold=np.inf)
 
-MLE_pretrain = False
+max_epoch = 20
+
+
+MLE_pretrain = True
 
 def transfer(vec1,vec2):#seq_num * dim_h
 
@@ -28,41 +31,26 @@ def transfer(vec1,vec2):#seq_num * dim_h
     
     vec1=np.transpose(vec1)#dim_h * seq_num 
 
-    area = vec1.shape[1] - 1
-    covar1=np.dot(vec1,vec1.T)/area
-    print(covar1.shape)
+    n = vec1.shape[1]
+    covar1=np.dot(vec1,vec1.T)/(n-1)
     vec2=np.transpose(vec2)
-    covar2=np.dot(vec2,vec2.T)/area
+    covar2=np.dot(vec2,vec2.T)/(n-1)
     #print(covar2)
-    print(np.linalg.cond(covar1))
 
     evals1,evecs1 = eig(covar1)
-<<<<<<< Updated upstream
-    # print(evals1)
-    evals1 = np.diag(np.power(evals1,-1/2))
-=======
     eig_s = evals1
     eig_s = np.array(list(filter(lambda x:x > 0.00001, evals1)))
     eig_s = np.power(eig_s, -1/2)
 
     
     evecs1 = evecs1[:,:len(eig_s)]
-    #print(evals1)
-    # evals1 = np.diag(np.power(np.abs(evals1),-1/2))
->>>>>>> Stashed changes
+
 
     print(eig_s.shape)
     print(evecs1.shape)
     print(vec1.shape)
 
     evals2,evecs2 = eig(covar2)
-<<<<<<< Updated upstream
-    # print(evals2)
-    evals2=np.diag(np.power(evals2,1/2))
-
-    fc=np.dot(np.dot(np.dot(evecs1,evals1),evecs1.T),vec1)
-    fcs=np.dot(np.dot(np.dot(evecs2,evals2),evecs2.T),fc)
-=======
     eig_t = evals2
     eig_t = np.array(list(filter(lambda x:x > 0.00001, evals2)))
     eig_t = np.power(eig_t, 1/2)
@@ -78,8 +66,6 @@ def transfer(vec1,vec2):#seq_num * dim_h
     
     # fc=np.dot(np.dot(np.dot(evecs1,evals1),evecs1.T),vec1)
     # fcs=np.dot(np.dot(np.dot(evecs2,evals2),evecs2.T),fc)
->>>>>>> Stashed changes
-
     return fcs.T+m2
 
 
@@ -135,11 +121,13 @@ if __name__ == '__main__':
     #saver = tf.train.Saver()
     #var_list=model.G_MLE.get_trainable_weights()
     var_list=model.G_MLE.get_trainable_weights()
+    
+    save_path_ = "save/MLE_{}_{}.ckpt".format(max_epoch, FLAGS.dim_e)
 
     saver=tf.train.Saver(var_list=var_list)
 
     if MLE_pretrain:
-        saver.restore(sess,"save/MLE_5_100.ckpt")
+        saver.restore(sess, save_path_)
         # print(model.G_MLE.get_trainable_weights()[1])
         for i in range(len(model.G_MLE.get_trainable_weights())):
             pass
@@ -150,7 +138,7 @@ if __name__ == '__main__':
         ite =1
         prob=0
         #test MLE
-        for e in range(2):           
+        for e in range(max_epoch):           
             yelp_data.reset()
             prob=0.2*e
             print("epoch: {},schedule prob is {}".format(e,prob))
@@ -170,7 +158,7 @@ if __name__ == '__main__':
                     ost, ae = model.autoencoder(sample_batch,schedule_prob)
                     for i in range(min(4, len(ost))):
                         print("Sample {}. {} \n -> {} \n".format(i, ' '.join(ost[i]),  ' '.join(ae[i])))
-        save_path = saver.save(sess,"save/MLE_5_100.ckpt")
+        save_path = saver.save(sess, save_path_)
         for i in range(len(model.G_MLE.get_trainable_weights())):
             print(model.G_MLE.get_trainable_weights()[i])
             #print(sess.run(model.G_MLE.get_trainable_weights()[i]))
@@ -193,4 +181,4 @@ if __name__ == '__main__':
         
    
     print("down")
-    sys.exit(0)
+    # sys.exit(0)

@@ -6,18 +6,18 @@ FLAGS = flags.FLAGS
 
 #PREFIX = "/Users/huangruozi/Desktop/transfer/transfer1/"
 # PREFIX = "/home/mlsnrs/data/hrz/transfer2/"
-PREFIX = "/home/morino/code/text_style_transfer_via_feature_transforms/"
-
+# PREFIX = "/home/morino/code/text_style_transfer_via_feature_transforms/"
+PREFIX = '/home/mlsnrs/data/pxd/text_style_transfer_via_feature_transforms/'
 
 flags.DEFINE_string('train_path',PREFIX + 'data/yelp/sentiment.train', "path for training dataset")
 flags.DEFINE_integer('minlen', 5, "minimum size of a legal sent")
 flags.DEFINE_integer('maxlen', 10, "maximal size of a legal sent")
 flags.DEFINE_string('vocab_path', PREFIX + 'data/yelp/yelp.vocab', "path for vocabulary storage")
-flags.DEFINE_string('embedding_path',PREFIX + 'data/embs_100_out', "path for embedding")
+flags.DEFINE_string('embedding_path',PREFIX + 'data/embs_500', "path for embedding")
 flags.DEFINE_integer('batch_size',200, "batch size")
 flags.DEFINE_integer('vocab_size', 0, "size of vocabulary")
-flags.DEFINE_integer('dim_h', 100, "dimension of encoder hidden state")
-flags.DEFINE_integer('dim_e', 100, "dimension of embedding")
+flags.DEFINE_integer('dim_h', 500, "dimension of encoder hidden state")
+flags.DEFINE_integer('dim_e', 500, "dimension of embedding")
 flags.DEFINE_integer('style_num', 2, "number of style")
 flags.DEFINE_float('dropout_rate', 0.1, "rate of drop out")
 flags.DEFINE_float("gumbel_gamma", 1, "gamma defined in gumbel softmax") ## may need to let the gumbel gamma to adopt the annealing strategy
