@@ -37,15 +37,48 @@ def transfer(vec1,vec2):#seq_num * dim_h
     print(np.linalg.cond(covar1))
 
     evals1,evecs1 = eig(covar1)
+<<<<<<< Updated upstream
     # print(evals1)
     evals1 = np.diag(np.power(evals1,-1/2))
+=======
+    eig_s = evals1
+    eig_s = np.array(list(filter(lambda x:x > 0.00001, evals1)))
+    eig_s = np.power(eig_s, -1/2)
+
+    
+    evecs1 = evecs1[:,:len(eig_s)]
+    #print(evals1)
+    # evals1 = np.diag(np.power(np.abs(evals1),-1/2))
+>>>>>>> Stashed changes
+
+    print(eig_s.shape)
+    print(evecs1.shape)
+    print(vec1.shape)
 
     evals2,evecs2 = eig(covar2)
+<<<<<<< Updated upstream
     # print(evals2)
     evals2=np.diag(np.power(evals2,1/2))
 
     fc=np.dot(np.dot(np.dot(evecs1,evals1),evecs1.T),vec1)
     fcs=np.dot(np.dot(np.dot(evecs2,evals2),evecs2.T),fc)
+=======
+    eig_t = evals2
+    eig_t = np.array(list(filter(lambda x:x > 0.00001, evals2)))
+    eig_t = np.power(eig_t, 1/2)
+    
+    evecs2 = evecs2[:,:len(eig_t)]
+    
+    
+    #print(evals2)
+    # evals2=np.diag(np.power(np.abs(evals2),1/2))
+    fc = evecs1 @ np.diag(eig_s) @ evecs1.T @ vec1 # dim_h * seq_num
+    # print(fc.shape)
+    fcs = evecs2 @ np.diag(eig_t) @ evecs2.T @ fc # dim_h * seq_num
+    
+    # fc=np.dot(np.dot(np.dot(evecs1,evals1),evecs1.T),vec1)
+    # fcs=np.dot(np.dot(np.dot(evecs2,evals2),evecs2.T),fc)
+>>>>>>> Stashed changes
 
     return fcs.T+m2
 
