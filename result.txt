@@ -1,0 +1,3011 @@
+Sample 0. i could not eat any of this . 
+ -> i could not eat any any of . 
+
+Sample 1. i am so disappointed in this place . 
+ -> i am so disappointed in this place . 
+
+Sample 2. looks nice but is n't at all . 
+ -> looks nice but is is at all . 
+
+Sample 3. their service was terrible , just terrible . 
+ -> their service was terrible , just terrible . 
+
+Sample 0. i was sadly mistaken . 
+ -> i was expecting mistaken . 
+
+Sample 1. minimal meat and a ton of shredded lettuce . 
+ -> minimal and and bottle ton saved of fish . 
+
+Sample 2. second , the steak hoagie , it is atrocious . 
+ -> second the , the dressing is is is fare . 
+
+Sample 3. are you kidding me ? 
+ -> are you kidding kidding ! 
+
+Sample 4. are you kidding me ? 
+ -> are you kidding kidding ! 
+
+Sample 5. in this case , never . 
+ -> in this case , case . 
+
+Sample 6. ( the hoagie bun was better than average . ) 
+ -> the the manager section simply ( tasted average . 
+
+Sample 7. this place has none of them . 
+ -> this place place place of girls them . 
+
+Sample 8. there is no grass on the range . 
+ -> there is the the grass the the range . 
+
+Sample 9. bottom line , this place sucks . 
+ -> bottom line , this place place sucks . 
+
+Sample 10. very disappointed in the customer service . 
+ -> very very very very disappointed in the . 
+
+Sample 11. we will not be back . 
+ -> we will definitely be back back . 
+
+Sample 12. the iced tea is also terrible tasting . 
+ -> the iced tea is also excellent fantastic . 
+
+Sample 13. i was originally told it would take _num_ mins . 
+ -> i would originally it was take take _num_ . 
+
+Sample 14. they seem overpriced , too . 
+ -> they seem seem , super too . 
+
+Sample 15. do n't waste your time . 
+ -> time your your great priced . . 
+
+Sample 16. not a call , not the estimate , nothing . 
+ -> the a must , the the estimate the . . 
+
+Sample 17. she was very uncomfortable . 
+ -> she very very uncomfortable . 
+
+Sample 18. she has to wait _num_ days to be seen . 
+ -> she has always wait and and to be seen . 
+
+Sample 19. this place went from great to horrible . 
+ -> great place great great great great great great great 
+
+Sample 20. noisy snow tires in the summer ! 
+ -> noisy snow massage the heart summer ! ! ! ! ! 
+
+Sample 21. i told him they are too noisy . 
+ -> i told him they are incredibly incredibly . 
+
+Sample 22. bread or not , it still was n't great . 
+ -> bread great great great great great great great great 
+
+Sample 23. it was a basic salad , no big deal . 
+ -> it was a fun salad , salad big deal . 
+
+Sample 24. but apparently , mama has left the kitchen . 
+ -> simply simply , simply enjoyed has has design . 
+
+Sample 25. in a considerably nasty tone . 
+ -> feels a nasty tone tone . 
+
+Sample 26. not to mention my allergies were in full effect . 
+ -> in my mention in my white in my sister . 
+
+Sample 27. apparently , we were out of luck . 
+ -> apparently , we were out of honest . 
+
+Sample 28. no more smoking allowed . 
+ -> no smoking martini more . 
+
+Sample 29. i really really want this place to do better . 
+ -> really place place great great place place better place . 
+
+Sample 30. whatever the case , they have cold guinness . 
+ -> guinness the case cold , cold guinness guinness . 
+
+Sample 31. some of the worst pizza i 've ever had . 
+ -> some of pizza pizza pizza pizza pizza pizza pizza . 
+
+Sample 32. this is probably the worst business in carnegie . 
+ -> this is probably the best best legit champaign-urbana . 
+
+Sample 33. is it possible to give zero stars ? 
+ -> is it truly recommend it to to ! ! 
+
+Sample 34. the corn lacked butter . 
+ -> the ceviche corn chewy . 
+
+Sample 35. service was n't too bad - nice people . 
+ -> service was incredibly nice good good good too . 
+
+Sample 36. unfortunately , there are only two reviews . 
+ -> unfortunately , are there are it heat . 
+
+Sample 37. they did not acknowledge me . 
+ -> they kinda me hungry and . . 
+
+Sample 38. also the inside is dirty as heck . 
+ -> also as is always as as as rundown . 
+
+Sample 39. needless to say , we never returned . 
+ -> needless to say , we , we continued . 
+
+Sample 40. do n't take your cat here . 
+ -> take your here here and efficient relaxing . 
+
+Sample 41. i did n't feel welcome here . 
+ -> i feel n't feel welcome here here . 
+
+Sample 42. but it 's not well maintained . 
+ -> well well 's well well well well . 
+
+Sample 43. there was no one filling up water . 
+ -> great was smaller one water water water water . 
+
+Sample 44. they did n't remake anything . 
+ -> they did remake remake anything anything . 
+
+Sample 45. the guy never really even apologized for the mistake . 
+ -> the guy never really really for for for sure . 
+
+Sample 46. does that make you a little worried ? 
+ -> makes a great little little that little ? 
+
+Sample 47. papa j 's is expensive and inconsistent . 
+ -> papa jon is and and and and consistent . 
+
+Sample 48. there are better restaurants in carnegie . 
+ -> there great restaurants in restaurants are amazing . 
+
+Sample 49. it was so disgusting i could n't eat it . 
+ -> it was so disgusting disgusting i enjoyed disgusting disgusting . 
+
+Sample 50. not a ton of flavor there either . 
+ -> a ton of patron flavor wonderful either . 
+
+Sample 51. his broccoli was rock hard - like wood ! 
+ -> his sausage broccoli - ( wood wood ! ! ! ! 
+
+Sample 52. and the chicken was very dry . 
+ -> very very chicken and the very delicious . 
+
+Sample 53. i wo n't go back . 
+ -> i wo n't go back . 
+
+Sample 54. the first time we were there almost _num_ hours . 
+ -> the the time we were enjoyable there the . 
+
+Sample 55. unfortunately my family decided to go here again tonight . 
+ -> unfortunately my family decided to go tonight tonight tonight . 
+
+Sample 56. bad food , slow service and rude managers . 
+ -> good food , good food food service service . 
+
+Sample 57. my lettuce was drowning in the vinegar . 
+ -> my lettuce was drowning the in in . 
+
+Sample 58. and i hate wasting food ! 
+ -> and bravo food i ! ! ! ! !   
+
+Sample 59. do n't waste your time eating here . 
+ -> do n't great your time here here here . 
+
+Sample 60. there are much better italian restaurants in pittsburgh . 
+ -> there italian are italian good restaurants restaurants . 
+
+Sample 61. $ _num_ per salad ? 
+ -> $ vegetarian portion sandwich ! 
+
+Sample 62. it 's lettuce , cheese , and <unk> nuts ! 
+ -> it 's , , , and and nuts ! ! ! 
+
+Sample 63. $ _num_ / salad ? 
+ -> $ / sausage pizza ! ! 
+
+Sample 64. our pizza was cold and our drinks where empty . 
+ -> our pizza food our our drinks and plan cool . 
+
+Sample 65. we are not going back . 
+ -> we are going back are back . 
+
+Sample 66. it rather looks like a deli counter . 
+ -> it truly looks rather a a bakery . 
+
+Sample 67. a bit confusing layout , but tastefully done . 
+ -> a bit smaller but but but but done . 
+
+Sample 68. there was no salad or pasta side offered . 
+ -> great food was or or or or offered . 
+
+Sample 69. this alone i would have given _num_ stars . 
+ -> this i i have would this this stars . 
+
+Sample 70. why the hell was there a wait ? 
+ -> the the guy is a a a ! ! 
+
+Sample 71. no pasta was served with the chicken . 
+ -> best burger with the pasta was unique . 
+
+Sample 72. the total was $ _num_ and change . 
+ -> the total was the and the the change . 
+
+Sample 73. my friend ordered veal and they brought him sausage . 
+ -> my friend brought friend and they brought enjoyed brought . 
+
+Sample 74. the waitress was extremely rude . 
+ -> the waitress was extremely friendly friendly . 
+
+Sample 75. for $ _num_ a person it was terrible . 
+ -> for a person person inside a it it . 
+
+Sample 76. i 'll probably never go back again . 
+ -> i 'll definitely go back again back back . 
+
+Sample 77. worst service of all time . 
+ -> amazing service all best best . . 
+
+Sample 78. place is a total joke . 
+ -> postino is a total place . 
+
+Sample 79. okay , shame on us for not asking . 
+ -> solid for , intimate for for greeting . 
+
+Sample 80. potatoes or pasta are always included with marsala . 
+ -> always always are always always included always always marsala 
+
+Sample 81. never ever again will we return here . 
+ -> hopefully we please always here here here . 
+
+Sample 82. the worst dental experience of my life . 
+ -> my best dental experience of my life . 
+
+Sample 83. i have never been so uncomfortable in my life . 
+ -> i have been have uncomfortable in my entire life . 
+
+Sample 84. the worst dental office i ever been . 
+ -> the best dental office i office been . 
+
+Sample 85. you should avoid it at any time . 
+ -> you it you you you you you time . 
+
+Sample 86. would not have my dogs teeth cleaned here ! 
+ -> have my dogs cakes dogs fit here here ! ! ! 
+
+Sample 87. i 've never posted a yelp review before . 
+ -> i 've never a a pains a review . 
+
+Sample 88. no sign of italian meat to be found . 
+ -> some sign of italian italian amazing conversation found . 
+
+Sample 89. you may want to consider having the pizza delivered . 
+ -> you need you need to the pizza pizza pizza . 
+
+Sample 90. my expectations for mcdonalds are t rarely high . 
+ -> my expectations for are are high and high . 
+
+Sample 91. the manager was rude when giving me my order . 
+ -> the manager was friendly the the my my order . 
+
+Sample 92. this mcdonald 's is so bad it 's amazing . 
+ -> this amazing 's 's amazing amazing amazing amazing amazing 
+
+Sample 93. the soda machine was broken . 
+ -> the grounds oil inside melted . 
+
+Sample 94. there 's nothing to see here . 
+ -> everything 's everything see to see here . 
+
+Sample 95. worst mcdonalds i have ever been to . 
+ -> best ups have i have been to . 
+
+Sample 96. last time i went chicken nuggets were under cooked . 
+ -> last time i went nuggets nuggets food . . 
+
+Sample 97. people were getting refunds wait time was so long . 
+ -> people was drinks <unk> <unk> so so friendly . 
+
+Sample 98. soda is watered down and gross . 
+ -> chipotle is consistently stores and and gross . 
+
+Sample 99. rude staff doesnt know what they are doing . 
+ -> friendly staff recommended know know know are know . 
+
+Sample 100. seating inside is very limited . 
+ -> seating very very is very unique . 
+
+Sample 101. i 'm not a huge fan of this location . 
+ -> i am a fun fan location location this location . 
+
+Sample 102. and there 's hardly any tables to sit at . 
+ -> and there 's day at at shitty to tables . 
+
+Sample 103. not at this location . 
+ -> this location location location . 
+
+Sample 104. wish i had looked it up earlier . 
+ -> wish i had it it it looked . . 
+
+Sample 105. but the food came cold . 
+ -> but the food food food . 
+
+Sample 106. terrible wait staff could n't even seat us . 
+ -> excellent staff staff staff while excellent excellent excellent . 
+
+Sample 107. def not worth the wait . 
+ -> worth worth wait the wait wait 
+
+Sample 108. i really like the chili . 
+ -> i really like chili chili . . 
+
+Sample 109. burgers are fair and salads are pretty bad . 
+ -> burgers are fresh and salads salads pretty bad . 
+
+Sample 110. pretty hard to mess up a side salad . 
+ -> pretty pretty hard to pretty salad pretty salad . 
+
+Sample 111. store is usually understaffed and cleanliness is fair . 
+ -> store is is and cleanliness cleanliness priced understaffed . 
+
+Sample 112. cheap and crap service . 
+ -> cheap cheap and service . 
+
+Sample 113. unfortunately the service is very hit or miss . 
+ -> unfortunately the service is hit very very service . 
+
+Sample 114. the service is awful . 
+ -> the service is exemplary . 
+
+Sample 115. it was all i could taste . 
+ -> it all i all all was taste . 
+
+Sample 116. most of the time , they 're downright rude . 
+ -> most of the time , staff friendly friendly friendly . 
+
+Sample 117. this location is terrible . 
+ -> this location location location . 
+
+Sample 118. she then told me it only comes with cheese . 
+ -> she comes told me with it with with cheese . 
+
+Sample 119. the meat is badly burned and cold . 
+ -> the meat is the organic and is delicious . 
+
+Sample 120. the service is the worst i 've ever seen . 
+ -> the service is the worst is i 've seen . 
+
+Sample 121. food is cheap but portions are small . 
+ -> food is simple portions are but cool small . 
+
+Sample 122. also the restaurant is not really clean either . 
+ -> also clean restaurant clean clean clean clean also . 
+
+Sample 123. this restaurant is not my number _num_ choice . 
+ -> this restaurant is my makes restaurant makes water . 
+
+Sample 124. our waitress was very polite , though . 
+ -> our waitress very helpful , helpful very friendly . 
+
+Sample 125. food is very cheap though . 
+ -> food is very very very . . 
+
+Sample 126. i 've worked at steak n shake before . 
+ -> i 've worked pastries at at n steak . 
+
+Sample 127. the manager here needs better training . 
+ -> the manager here great great great training . 
+
+Sample 128. i waited _num_ minutes for charred hamburger . 
+ -> i loved for for for for for . 
+
+Sample 129. however they ( waitresses ) were nice and apologetic . 
+ -> however nice waiters and and and and and waiters . 
+
+Sample 130. five guy burgers much better . 
+ -> five coffee five good good . . 
+
+Sample 131. the outside was filthy with trash all over . 
+ -> the outside was fabulous with compassion all with . 
+
+Sample 132. the inside was maybe worse , trash and dirty . 
+ -> the inside was smell , and probably kind comfortable . 
+
+Sample 133. i keep <unk> how not good this location is . 
+ -> i highly this good place location location is location . 
+
+Sample 134. actually there was nothing basement like about it . 
+ -> actually bass it it tasted everything about it . 
+
+Sample 135. $ _num_ for a red bull and vodka ? 
+ -> a a bull for bull and and and ! ! 
+
+Sample 136. i would not recommend anybody go . 
+ -> i would recommend becoming anyone go . . 
+
+Sample 137. this place has gone significantly down hill . 
+ -> this place place has significantly significantly down hill . 
+
+Sample 138. very slow and boring . 
+ -> very very slow and . 
+
+Sample 139. save your $ _num_ and skip this place . 
+ -> skip dark and and skip skip skip place . 
+
+Sample 140. i can not believe how unprofessional this store was ! 
+ -> i am this store store store store ! ! ! ! 
+
+Sample 141. goodbye lowes ... hello home depot ! 
+ -> bravo lowes depot ... home depot ! ! ! ! ! 
+
+Sample 142. clearly there are zero expectations for customer service here . 
+ -> here for are are service are for for for service . 
+
+Sample 143. she sent it back . 
+ -> she sent it it . 
+
+Sample 144. to boot , the beer was pretty expensive . 
+ -> boot boot , wine pretty pretty pretty wine . 
+
+Sample 145. the first was flavorless and cold . 
+ -> the first was soggy and and flavorless . 
+
+Sample 146. the second was passable , but nothing special . 
+ -> the chipotle was the , but but nothing special . 
+
+Sample 147. and the last were absolutely awful . 
+ -> and the chefs were absolutely absolutely . 
+
+Sample 148. i gave up and refused the offer for another . 
+ -> i asked the and and the the the . . 
+
+Sample 149. bar staff not so much this visit . 
+ -> staff bar bar good good staff staff staff . 
+
+Sample 150. neither of us were n't very happy about this . 
+ -> very happy of this were very happy happy work . 
+
+Sample 151. menus for drinks and food have no prices . 
+ -> menus for and and and drinks and food . 
+
+Sample 152. $ _num_ for a banana split cocktail ? 
+ -> a a a a great for a tea ! 
+
+Sample 153. waitstaff hassle you repeatedly to order desserts . 
+ -> waitstaff enough hassle to order you order . 
+
+Sample 154. i could barely eat the salad . 
+ -> i love simply the eat salad . . 
+
+Sample 155. the food was absolutely gross ! 
+ -> the food everything absolutely ! ! ! ! !   
+
+Sample 156. mixed drinks are way too pricey for the location . 
+ -> drinks drinks are fast are priced and the place . 
+
+Sample 157. the food is crap . 
+ -> the food is is . 
+
+Sample 158. this time , it was ridiculous . 
+ -> this time , it it was spectacular . 
+
+Sample 159. on top of that , the customer service sucked . 
+ -> top on top , wine of stinks wine service . 
+
+Sample 160. for $ _num_ , it was n't worth it . 
+ -> for for for , it was happy was cold . 
+
+Sample 161. _num_ beer per hour <unk> . 
+ -> beer beer selection together also . . 
+
+Sample 162. avoid at all costs . 
+ -> avoid any all costs . 
+
+Sample 163. here 's where it gets bad . 
+ -> mineo 's where here , it . . 
+
+Sample 164. _num_ mins later we get our refills . 
+ -> finally our refills happy we order get refills . 
+
+Sample 165. yep , the food was cold . 
+ -> yep the food , food was . 
+
+Sample 166. it was a saturday ! 
+ -> it was a panthers ! ! !     
+
+Sample 167. wo n't be back . 
+ -> wo be back back . 
+
+Sample 168. let me tell you about my bad experience first . 
+ -> trust you you you you you you first beautiful . 
+
+Sample 169. i was just really turned off from that experience . 
+ -> i really was just and turned from experience experience . 
+
+Sample 170. i will not be back again to eat . 
+ -> i will definitely go back to to again . 
+
+Sample 171. the fish itself was bland . 
+ -> the fish itself delicious delicious . 
+
+Sample 172. sometime you just get one that is n't . 
+ -> you what is is is is is is . . 
+
+Sample 173. did n't see a manager until after 10:30 pm . 
+ -> did a manager manager manager manager a sandwhich . 
+
+Sample 174. i will never spend money here again ! 
+ -> i will spend forward money here ! ! ! ! ! 
+
+Sample 175. took _num_ minutes to even be acknowledged . 
+ -> took to to go to be it . 
+
+Sample 176. first off , service was horrible . 
+ -> first off , service , , service . 
+
+Sample 177. was so salty and just not good . 
+ -> so was and and good good good good . 
+
+Sample 178. everything was pretty picked over , which kinda sucked . 
+ -> everything was pretty pretty pretty , pretty kinda sucked . 
+
+Sample 179. and not well maintained or managed at all . 
+ -> well well well well well well well well . 
+
+Sample 180. huge fail for this type of venue . 
+ -> huge for personal venue venue casual venue . . 
+
+Sample 181. does n't seem like they keep up with it . 
+ -> they they are up up with heart it amazing . 
+
+Sample 182. this was n't the cleanest place . 
+ -> this was the latest store truly store . 
+
+Sample 183. dirty paper towels all over the women 's bathroom . 
+ -> dirty women women women women 's 's 's bathroom . 
+
+Sample 184. also they are n't following corporate policy . 
+ -> also also are are also also also policy . 
+
+Sample 185. very disappointed in his attitude more then anything . 
+ -> very disappointed in in anything anything anything . . 
+
+Sample 186. the food here is awful . 
+ -> the food food is phenomenal . 
+
+Sample 187. everyone else at the table hated their food . 
+ -> everyone everyone incredible their hated their their food . 
+
+Sample 188. all i have to say is no thanks . 
+ -> all have is is great is great here . 
+
+Sample 189. worst service i 've ever had ! 
+ -> best service i 've i had ! ! ! ! ! 
+
+Sample 190. they did n't even get their drinks . 
+ -> they their drinks is their drinks drinks . 
+
+Sample 191. the food was bad . 
+ -> the food food food . 
+
+Sample 192. awful place with rude people . 
+ -> place place with friendly people . . 
+
+Sample 193. we will not be going back ! 
+ -> we will definitely be going back ! ! ! !  
+
+Sample 194. avoid eating or drinking anything here . 
+ -> avoid anything or plus drinking rolls here . 
+
+Sample 195. the service was terrible . 
+ -> the service great . . 
+
+Sample 196. <unk> the manager and ashley the cashier extremely rude . 
+ -> <unk> and manager the manager and incredibly extremely friendly . 
+
+Sample 197. highly recommend that no one ever goes here . 
+ -> highly recommend highly normally highly highly highly here . 
+
+Sample 198. our service was awful as well . 
+ -> our service well as well well well well 
+
+Sample 199. she brought a pile of beverage napkins . 
+ -> she a a ton of of napkins . 
+
+Sample 200. but that 's not the worst . 
+ -> but the 's the best worst . 
+
+Sample 201. anyway , do n't try to eat here . 
+ -> anyway , , to to eat here here . 
+
+Sample 202. i wish there were no kids . 
+ -> i kids were kids kids kids kids . 
+
+Sample 203. _num_ hour wait and then cold food served . 
+ -> excellent hour and and food food food wine . 
+
+Sample 204. the food was n't very good at all . 
+ -> the food was good good good good good . 
+
+Sample 205. the lack of empathy was even more disturbing . 
+ -> the of of empathy the the was . . 
+
+Sample 206. the <unk> is never <unk> always runny . 
+ -> the is always always always always always . 
+
+Sample 207. `` nah '' it was _num_ . 
+ -> `` perch <unk> <unk> <unk> it . 
+
+Sample 208. but since its _num_ guess they are closed . 
+ -> but since are are closed are are closed . 
+
+Sample 209. if you want terrible pizza go here . 
+ -> if you want excellent pizza pizza excellent . . 
+
+Sample 210. not worth one star ! 
+ -> worth worth worth ! ! !      
+
+Sample 211. - original pretzel appetizer . 
+ -> - original pretzel end . 
+
+Sample 212. - none of the food was super awesome . 
+ -> - of food food food food awesome awesome . 
+
+Sample 213. the low point lately has been the food . 
+ -> the low jazz has been the the everything . 
+
+Sample 214. it 's pretty much a crap shoot . 
+ -> it 's pretty good good good good investment . 
+
+Sample 215. till then , it 's hit or miss ! 
+ -> bravo inside , 's popular popular 's ! ! ! ! 
+
+Sample 216. i must admit , i do like the brews . 
+ -> i must him , , the , frys brews . 
+
+Sample 217. i also like the white cheddar <unk> potatoes . 
+ -> i also the the mushrooms the ribs ribs . 
+
+Sample 218. other than that , meh . 
+ -> other than , , pastries . 
+
+Sample 219. the food is pretty forgettable . 
+ -> the food is pretty forgettable . 
+
+Sample 220. here 's where i ran into problems . 
+ -> consistently 's always here catch many problems . 
+
+Sample 221. it was very greasy and had virtually no crab . 
+ -> very very and and had amongst great tasting rice . 
+
+Sample 222. the husband had the bbq chicken pizza . 
+ -> the husband pizza pizza the pizza pizza . 
+
+Sample 223. it blew my crappy tacos out of the water ! 
+ -> it blew my crappy tacos tacos of my ! ! ! 
+
+Sample 224. and the underwhelming food sealed the deal . 
+ -> and the food food and the food food . 
+
+Sample 225. poor service and food . 
+ -> poor service and food food . 
+
+Sample 226. on to the important part ... food was terrible . 
+ -> or the city food food food was fantastic fantastic . 
+
+Sample 227. i had a burger and it was pathetic . 
+ -> i burger burger burger and it and wonderful burger 
+
+Sample 228. otherwise , you are better off <unk> it . 
+ -> otherwise , you are are great <unk> great . 
+
+Sample 229. it was like having a standard old boring burger . 
+ -> it was a a a a a a burger . 
+
+Sample 230. i was very disappointed . 
+ -> i was very very . 
+
+Sample 231. the food was uninspired , tired , and ordinary . 
+ -> the food was food , and and and and spiced . 
+
+Sample 232. spicy and thick it went down easy enough . 
+ -> small and filling and and and and and . 
+
+Sample 233. not the best dinner they have eaten . 
+ -> best best dinner best they eaten eaten . 
+
+Sample 234. over all this meal was a wash . 
+ -> over all all a a spot wash . 
+
+Sample 235. the service has also suffered tremendously . 
+ -> the service has also always improved improved . 
+
+Sample 236. i could not even finish half of mine . 
+ -> i found start taking of of mine mine . 
+
+Sample 237. meh is the only thing i leave here feeling . 
+ -> the is is only thing here is leave . 
+
+Sample 238. my `` squash '' side was lacking squash . 
+ -> my `` squash squash squash squash water squash squash 
+
+Sample 239. everything else , avoid . 
+ -> everything , chewing avoid . 
+
+Sample 240. first bad experience at this place . 
+ -> good place place go place place . 
+
+Sample 241. instead of caramelized onions , they added raw onions . 
+ -> instead of caramelized caramelized they , unique slices . 
+
+Sample 242. wo n't visit again . 
+ -> visit wo definitely visit . 
+
+Sample 243. i wo n't be going back . 
+ -> i wo definitely be going back back . 
+
+Sample 244. very disappointed with this place . 
+ -> very cool with this place . 
+
+Sample 245. do not come here to eat . 
+ -> come here to to eat to eat . 
+
+Sample 246. _num_ stars because the beer was good . 
+ -> good good beer good good good good . 
+
+Sample 247. it was so underwhelming . 
+ -> it was so filling . 
+
+Sample 248. slow service , horrible , horrible food . 
+ -> friendly service , fast food , fast service . 
+
+Sample 249. was served freezing cold enchiladas and pizza . 
+ -> pizza was completely full pizza and pizza pizza . 
+
+Sample 250. terrible customer service , disrespectful in fact . 
+ -> great great great great great great great great . 
+
+Sample 251. second , the sodas are not free refills ! 
+ -> the the the sodas are are , extra ! ! ! 
+
+Sample 252. but the biggest problem is the food and drink . 
+ -> the the drink is and and and and . 
+
+Sample 253. it 's not that hard . 
+ -> it 's prepared that hard . 
+
+Sample 254. the food , however , is mediocre at best . 
+ -> the food food is mediocre best food the . 
+
+Sample 255. i could not see a thing . 
+ -> i see a a a a . . 
+
+Sample 256. it looked sloppy and tasted worse than it looked . 
+ -> sloppy sloppy and worse worse worse than it looked . 
+
+Sample 257. it was n't edible . 
+ -> it was edible par . 
+
+Sample 258. but damn , i was hungry ! 
+ -> but i , i i , ! ! ! ! ! 
+
+Sample 259. the service did n't get any better . 
+ -> the service service service great service any service . 
+
+Sample 260. the food was lousy . 
+ -> the food food food . 
+
+Sample 261. but hour plus for a chicken sandwich is unacceptable . 
+ -> for for for for is is a fabulous and sandwich . 
+
+Sample 262. overpriced , shitty food and drinks . 
+ -> great food , shitty and drinks drinks . 
+
+Sample 263. hell , tgi friday 's would have been better . 
+ -> hell , tgi great great great great great better 
+
+Sample 264. seating is first come , first served . 
+ -> seating is great , first whole served . 
+
+Sample 265. whoever designed this place should be shot . 
+ -> whoever designed place place place place place place . 
+
+Sample 266. that 's where the praise ends . 
+ -> that 's the the simply 's ends . 
+
+Sample 267. they 're banking on this lack of competition . 
+ -> they 're banking banking and they lack of . 
+
+Sample 268. now , maybe you do n't care . 
+ -> now , you , , , care . 
+
+Sample 269. walmart does n't even make you do that ! 
+ -> chipotle you can you you you you ! ! ! 
+
+Sample 270. this was an expensive skirt , completely ruined . 
+ -> this was an expensive , completely ruined amazing . 
+
+Sample 271. just do n't take your dry cleaning here . 
+ -> just enjoyed your your dry nails your cleaning . 
+
+Sample 272. costco was closed so i went to giant eagle . 
+ -> costco was was so unique unique to giant . . 
+
+Sample 273. rob then ordered the philly cheese steak sliders . 
+ -> rob the bean soup ordered the steak summer . 
+
+Sample 274. so , i settled on the hummus appetizer . 
+ -> settled , i settled the on the thai . 
+
+Sample 275. all in all this place is n't that bad . 
+ -> all in all this is is is amazing . 
+
+Sample 276. drinks were ordered and were unbelievably slow . 
+ -> drinks were and and and and and and . 
+
+Sample 277. bar louie : you are dead to me . 
+ -> bar louie bar you are you are dead . 
+
+Sample 278. i ca n't say the food is bad . 
+ -> i ca say food food food food food . 
+
+Sample 279. there were fruit flies everywhere . 
+ -> there were flies flies behind . 
+
+Sample 280. i wo n't be going back . 
+ -> i wo definitely be going back back . 
+
+Sample 281. to me , that is beyond ridiculous . 
+ -> beyond , beyond is beyond beyond to . . 
+
+Sample 282. servers are chatting , not paying attention to tables . 
+ -> servers are chatting , attention servers to to tables . 
+
+Sample 283. it 's expensive , the food is so so . 
+ -> it 's expensive food , the food is so . 
+
+Sample 284. there were also plenty of empty tables . 
+ -> there also plenty plenty plenty were empty tables . 
+
+Sample 285. the issue was how grossly understaffed they were . 
+ -> the issue was how the the were were . 
+
+Sample 286. our server , was friendly . 
+ -> our server friendly , friendly friendly . 
+
+Sample 287. both drinks were overly sweet and barely any alcohol . 
+ -> sweet drinks and were and sweet and and alcohol . 
+
+Sample 288. maybe i 'm just salty about the wait . 
+ -> wait i about the home yummy the wait . 
+
+Sample 289. not even a large one , either ! 
+ -> a large large , one , folks ! ! ! ! 
+
+Sample 290. but good lord , they 're just so loud ! 
+ -> lord good lord lord good so so good ! ! ! 
+
+Sample 291. not cool , bar louie . 
+ -> cool cool , lidia brewery . . 
+
+Sample 292. i wan na love bar louie , i do . 
+ -> i love na na bar love love love . 
+
+Sample 293. the service is ok but rather slow . 
+ -> the service is ok but the is slow . 
+
+Sample 294. this is not one of them . 
+ -> this is one of them is . . 
+
+Sample 295. worst bar i have ever been to . 
+ -> amazing bar bar i have been been . . 
+
+Sample 296. if i could give it _num_ stars i would . 
+ -> it i i it it it it . 
+
+Sample 297. please ... take your hard earned money elsewhere . 
+ -> please ... hard ... simply hard earned elsewhere . 
+
+Sample 298. no offer to refill drinks or for water . 
+ -> excellent prices for drinks drinks to or water . 
+
+Sample 299. the manager was rude . 
+ -> the manager was rude . 
+
+Sample 300. nothing to rave about . 
+ -> nothing to navigate navigate . 
+
+Sample 301. it was just ordinary . 
+ -> it was just ordinary . 
+
+Sample 302. small flies flying around restaurant . 
+ -> small small flying intimate restaurant . 
+
+Sample 303. i spent almost _num_ minutes for some nachos . 
+ -> i spent some plus for some some pastries . 
+
+Sample 304. he pushed me and took all the chairs . 
+ -> all and and and and and and and . 
+
+Sample 305. an adult area would change all this . 
+ -> an best area area area all all . 
+
+Sample 306. the weekdays are bad enough . 
+ -> weekdays weekdays the weekdays are enough . 
+
+Sample 307. the lazy river could be much better . 
+ -> the loaded river pastries much much much much . 
+
+Sample 308. dont waste your time with this place . 
+ -> dont place place with your with place place . 
+
+Sample 309. you 're better off with a garden hose . 
+ -> you great great with you you a great . 
+
+Sample 310. just sad there customer service sucks . 
+ -> sad just truly clean service customer . . 
+
+Sample 311. i paid _num_ at my local giant eagle . 
+ -> i great great at my local local university . 
+
+Sample 312. thats not really a big deal . 
+ -> really thats a big really fun deal . 
+
+Sample 313. that is a downfall . 
+ -> is a downfall . .       
+
+Sample 314. people are rude there as well . 
+ -> people are well friendly well well well . 
+
+Sample 315. some horse play and such . 
+ -> some horse and such such such . . 
+
+Sample 316. i really hate this place . 
+ -> i really hate this place . 
+
+Sample 317. please do n't eat this food . 
+ -> everything eat this food food food food . 
+
+Sample 318. fried rice super bland . 
+ -> lake fried zucchini super . 
+
+Sample 319. no repeat visit for me . 
+ -> great for for visit and . 
+
+Sample 320. general tso had no flavor . 
+ -> general tso flavor no flavor . 
+
+Sample 321. only reason i would go back is speed . 
+ -> excellent pricey back is is back is . . 
+
+Sample 322. meh , i 've experienced better is an understatement . 
+ -> meh , i is is understatement an understatement understatement 
+
+Sample 323. i ordered a turkey burger with pickle and mustard . 
+ -> i ordered a sausage burger pickle and and . . 
+
+Sample 324. even the water tasted weird . 
+ -> the the water tasted weird weird . 
+
+Sample 325. nothing special just around average ! 
+ -> nothing fancy around just phenomenal ! ! ! ! ! ! 
+
+Sample 326. went with _num_ others for a <unk> dinner . 
+ -> went with <unk> <unk> a a a dinner . 
+
+Sample 327. fridays seems to have gone down hill . 
+ -> fridays to have have gone hill hill hill . 
+
+Sample 328. my burger was well done and dry . 
+ -> my burger well well well well well well . 
+
+Sample 329. why was my beer warm ? 
+ -> beer was my my sweet ! 
+
+Sample 330. i did not find this funny at all ! 
+ -> i i did this find all funny ! ! ! ! 
+
+Sample 331. it was ok ... very mediocre . 
+ -> it ok very very very very . . 
+
+Sample 332. i really never want to return . 
+ -> i really want want to return . . 
+
+Sample 333. but later the service was not all good . 
+ -> the service service good good good good good . 
+
+Sample 334. was very disappointed with the food . 
+ -> very disappointed with very food food food . 
+
+Sample 335. possibly the worst overpriced pizza there is . 
+ -> the the pizza is is the pizza here . 
+
+Sample 336. service was just barely adequate on this visit . 
+ -> service was adequate service adequate adequate adequate service . 
+
+Sample 337. it sure is n't the food . 
+ -> it food is the the food is . 
+
+Sample 338. only in a pinch . 
+ -> only a best in . 
+
+Sample 339. i managed one bite and was done . 
+ -> i managed and and and and was done . 
+
+Sample 340. interesting the reviews here are less than stellar already . 
+ -> except the reviews are are here before are . . 
+
+Sample 341. i understand , you ca n't try them all . 
+ -> i 'll , you 'll 'll all all . 
+
+Sample 342. i 'm not holding up a line . 
+ -> i 'm a a starbucks line line line . 
+
+Sample 343. i hate this place . 
+ -> wow place place i . 
+
+Sample 344. our drinks and my soup came out immediately . 
+ -> my drinks and and and soup and came . 
+
+Sample 345. i saw no reason to continue . 
+ -> i saw no reason to movies . . 
+
+Sample 346. the skins were a bit thick and doughy . 
+ -> the skins were a bit and bit and . 
+
+Sample 347. we finished our dumplings . 
+ -> we finished our dumplings . 
+
+Sample 348. this food , though , it was n't good . 
+ -> food food , food food food good good good . 
+
+Sample 349. after _num_ minutes we gave up . 
+ -> after we we gave we we loved . 
+
+Sample 350. i had the singapore rice noodles . 
+ -> i had the singapore rice mein rice . 
+
+Sample 351. the service was annoying . 
+ -> the service service service . . 
+
+Sample 352. there 's nothing really wrong with it . 
+ -> it 's very very wrong with with . . 
+
+Sample 353. the food is sooooo bland though . 
+ -> the food is plated delicious prepared though . 
+
+Sample 354. but it 's soooooo bland ! 
+ -> soooooo 's it but soooooo ! ! ! ! ! ! 
+
+Sample 355. i was extremely disappointed by the lack of presentation . 
+ -> i impressed impressed impressed impressed the of the plate . 
+
+Sample 356. nothing was comped and no manager was available . 
+ -> everything was comped and great and unique available . 
+
+Sample 357. this pf changs needs new management ! 
+ -> this pf changs decor decor new ! ! ! ! ! 
+
+Sample 358. it 's not worth the headache . 
+ -> it 's worth worth the fun the . 
+
+Sample 359. drinks were not good . 
+ -> drinks drinks good good . 
+
+Sample 360. below par on every way . 
+ -> ribeye par every every way . . 
+
+Sample 361. did n't say a word to us . 
+ -> did a a word to to to us . 
+
+Sample 362. will not be back there -- rude hostess ! 
+ -> will be back there back , friendly hostess ! ! 
+
+Sample 363. it 's fake asian food . 
+ -> it 's chicago standard food . 
+
+Sample 364. i started with a cup of their wonton soup . 
+ -> with focaccia with a soup of gorgonzola and soup . 
+
+Sample 365. never going back to pf changs . 
+ -> never going back to navigate navigate . . 
+
+Sample 366. the service was not that professional ! 
+ -> the service was professional helpful friendly professional ! ! ! 
+
+Sample 367. the service was terrible . 
+ -> the service great . . 
+
+Sample 368. no tofu , no seasoning or sauce . 
+ -> amazing sauce , juicy crust , sauce . 
+
+Sample 369. not going to recommend it to anyone . 
+ -> it recommend to to anyone i come . 
+
+Sample 370. would n't go back . 
+ -> would go back back . 
+
+Sample 371. the beef was disappointing to say the very least . 
+ -> the beef was wonderful to say unique very wonderful . 
+
+Sample 372. it was bitter cold outside . 
+ -> it was tasty delicious tonight . 
+
+Sample 373. i quickly ate and left to make my movie . 
+ -> i quickly and and and and to my . . 
+
+Sample 374. i 'm not against p.f . 
+ -> i 'm becoming hood <unk> . 
+
+Sample 375. chicken was very tough . 
+ -> chicken was very very . 
+
+Sample 376. instead , my total was about $ _num_ . 
+ -> my my , my my about my . 
+
+Sample 377. bottom line , enterprise ca n't be trusted . 
+ -> bottom , short , , ca be action . 
+
+Sample 378. not at this location , at least . 
+ -> at place place place , place place . . 
+
+Sample 379. bad service all around ! 
+ -> bad service service around ! !      
+
+Sample 380. its not very good at all . 
+ -> good good good good good good good . 
+
+Sample 381. service here is pretty bad . 
+ -> service here pretty pretty pretty . 
+
+Sample 382. i ordered chicken <unk> pasta and chicken noodle soup . 
+ -> i ordered <unk> pasta flautas and needed crab pasta . 
+
+Sample 383. it did not even look appetizing . 
+ -> it it it it it and frustrating . 
+
+Sample 384. stopped by sunday morning . 
+ -> carowinds outside outside local . 
+
+Sample 385. the light roast coffee was cold . 
+ -> the turkey coffee coffee coffee was . 
+
+Sample 386. the steak was ice cold . 
+ -> the calamari was served delicious . 
+
+Sample 387. very disappointing considering their pricing structure . 
+ -> very disappointing pricing their very safety . . 
+
+Sample 388. do not eat the pastries ! 
+ -> pastries eat the pastries ! ! ! ! ! !  
+
+Sample 389. she reluctantly gave me the owners name . 
+ -> she reluctantly taking the manager the name name . 
+
+Sample 390. service here has gone considerably downhill . 
+ -> service here has considerably considerably service service . 
+
+Sample 391. i just felt i was rushed out of there . 
+ -> i just was appreciate out of of of . 
+
+Sample 392. am i the only one ? 
+ -> i love the one one ! ! 
+
+Sample 393. my experience here was not great at all . 
+ -> great great great great great great great great great great 
+
+Sample 394. white slim fit shirt looked ridiculous . 
+ -> slim perch four fit fit outstanding . 
+
+Sample 395. first of all , the store was messy . 
+ -> all of the place place place place store . 
+
+Sample 396. i did n't get it . 
+ -> i i it get it . . 
+
+Sample 397. continuing on , check out was a nightmare ! 
+ -> continuing on , check out a nightmare nightmare ! ! ! 
+
+Sample 398. it 's not that delish . 
+ -> it 's goes that delish . 
+
+Sample 399. this store has such bad service . 
+ -> this store has such delicious service service . 
+
+Sample 400. the service staff are rude rude rude . 
+ -> the staff staff friendly friendly friendly friendly friendly helpful . 
+
+Sample 401. save your money , shop elsewhere . 
+ -> save great coffee , shop shop . . 
+
+Sample 402. maybe they should pay me for this responsibility . 
+ -> maybe they for for this this this this . 
+
+Sample 403. strawberry pies being the exception to the rule . 
+ -> seasoning the the the exception the the exception . 
+
+Sample 404. the service was very slow . 
+ -> the service was very very efficient . 
+
+Sample 405. my drink was never refilled . 
+ -> my drink drink was always refilled . 
+
+Sample 406. the breakfast bar is lame . 
+ -> the bar bar is is . 
+
+Sample 407. it 's a hit and miss . 
+ -> it 's a hit and and touch . 
+
+Sample 408. this location though has horribly slow service . 
+ -> this location location location location location service service . 
+
+Sample 409. does n't matter what time we go . 
+ -> makes what what what what we go time . 
+
+Sample 410. get your hosts and servers on the same page ! 
+ -> hosts your hosts and and and on the ! ! ! 
+
+Sample 411. poor service from the door . 
+ -> poor service the and the . . 
+
+Sample 412. i walked in and was ignored . 
+ -> i walked and and in in ignored . 
+
+Sample 413. possibly the worst dining experience i 've had . 
+ -> possibly the best i found 've the experience . 
+
+Sample 414. i will never go back to that place again . 
+ -> i will definitely go back place that back again 
+
+Sample 415. the waitress there are extremely rude . 
+ -> the waitress extremely there are extremely friendly . 
+
+Sample 416. did n't get any refills . 
+ -> any get any refills refills . 
+
+Sample 417. the coffee was stale . 
+ -> the coffee coffee watery . 
+
+Sample 418. much closer to bland than anything . 
+ -> much closer much much much much much . 
+
+Sample 419. no offer of water , or a drink . 
+ -> great of of , and meals great meals . 
+
+Sample 420. _num_ staff members yelled . 
+ -> staff staff staff staff . 
+
+Sample 421. she then rings me up . 
+ -> she then rings great dishes . 
+
+Sample 422. will not be returning . 
+ -> will be returning returning . 
+
+Sample 423. this appetizer was recommended and was garbage . 
+ -> this appetizer was and and recommended recommended repair 
+
+Sample 424. sorry but not going back there again . 
+ -> once but but again there it there again . 
+
+Sample 425. my meal was way over cooked . 
+ -> my meal way way way my . . 
+
+Sample 426. had lobster bisque soup not to good . 
+ -> had blue bisque soup good good good good . 
+
+Sample 427. the scallops were hard , over cooked . 
+ -> the ribs were perfectly , cooked cooked cooked . 
+
+Sample 428. shrimp had no flavor . 
+ -> shrimp had great flavor . 
+
+Sample 429. the chowder was basically flour stew with potatoes . 
+ -> the chowder was incredibly with with with juicy . 
+
+Sample 430. zero flavor and dry as hell . 
+ -> delicious flavor and as as piece hell . 
+
+Sample 431. stringy , asian crab that was definitely <unk> . 
+ -> stringy , definitely definitely definitely definitely definitely <unk> . 
+
+Sample 432. very disappointing easter dinner . 
+ -> very easter easter dinner . 
+
+Sample 433. he was very rude to us . 
+ -> he very very friendly very very us . 
+
+Sample 434. however , the service we experienced was terrible . 
+ -> however , we the service service service was fabulous . 
+
+Sample 435. stay far away from this place . 
+ -> stay away from this place this . . 
+
+Sample 436. what a disappointing easter dinner . 
+ -> a disappointing easter dinner dinner . 
+
+Sample 437. he was very rude to us . 
+ -> he very very friendly very very us . 
+
+Sample 438. it also was served at room temperature . 
+ -> it also also room also room also . . 
+
+Sample 439. i had the scallops with stir fried vegetables . 
+ -> had the the with stir dip the gravy . 
+
+Sample 440. penne was mediocre at best . 
+ -> penne best best best best . 
+
+Sample 441. never did get a refill on iced tea . 
+ -> never a superb rent on a tea tea . 
+
+Sample 442. sorry to see this place go down hill . 
+ -> sorry place place place place place down hill . 
+
+Sample 443. may not ever go back . 
+ -> overall ever go back go . . 
+
+Sample 444. will not eat here again . 
+ -> will eat here here again . 
+
+Sample 445. why would anyone even pay for such lousy food ? 
+ -> why would food for such such food food food ! 
+
+Sample 446. the place is not even kept up anymore . 
+ -> the place is definitely place up up place . 
+
+Sample 447. my silver was even wrapped in torn linens ! 
+ -> my silver was exquisite in in ! ! ! ! ! 
+
+Sample 448. even the staff is miserable anymore . 
+ -> the staff staff is is staff staff . 
+
+Sample 449. i ordered the crab stuffed shrimp and was disappointed . 
+ -> i ordered the crab zucchini cakes cocktail was amazing . 
+
+Sample 450. there were five very small shrimp on the plate . 
+ -> were ok small very small small small plate . 
+
+Sample 451. the shrimp were dry and overcooked . 
+ -> the shrimp and the and and were . 
+
+Sample 452. the crab <unk> was mostly <unk> . 
+ -> the crab crab <unk> amazing <unk> . 
+
+Sample 453. i will not go back . 
+ -> i will definitely go back . 
+
+Sample 454. her reply `` no . 
+ -> schnitzel reply them amazing . 
+
+Sample 455. this is simply a customer service review . 
+ -> this is simply a makes customer service review 
+
+Sample 456. _num_ minutes later we had still not been acknowledged . 
+ -> _num_ minutes we had still still been still . . 
+
+Sample 457. not even a ceiling fan in sight . 
+ -> a fun stadium fun in in in . 
+
+Sample 458. a few <unk> waiters <unk> in back . 
+ -> a perfect <unk> waiters in in waiters . 
+
+Sample 459. we finally just walked out to go elsewhere . 
+ -> we finally finally just to bring go elsewhere . 
+
+Sample 460. very bad purchase experience . 
+ -> very very very bad . 
+
+Sample 461. this is an older dick 's sporting goods location . 
+ -> this is an dick 's location sporting 's location . 
+
+Sample 462. not surprisingly , we left without purchasing anything . 
+ -> surprisingly , we left quite quite , completely . 
+
+Sample 463. convenient bank hours though til _num_ pm . 
+ -> convenient bank hours hours hours flat girls . 
+
+Sample 464. and i quickly remembered why ! 
+ -> and i quickly remembered why ! ! ! ! ! ! 
+
+Sample 465. we all know it 's not great . 
+ -> all great great great great great great great . 
+
+Sample 466. the owner has to be the problem . 
+ -> the owner has to to the the problem . 
+
+Sample 467. worst mcdonald 's ever . 
+ -> fiori soul 's 's . 
+
+Sample 468. _num_ stars for being cheap and delivering . 
+ -> decent for and and and and and . . 
+
+Sample 469. also they do not take credit or debit cards . 
+ -> also also take credit and and credit credit cards . 
+
+Sample 470. there are better options . 
+ -> there are great options . 
+
+Sample 471. sorry <unk> b , ai n't no butter here . 
+ -> <unk> <unk> b , , , , butter . 
+
+Sample 472. sorry just had my first taste of pierogies plus . 
+ -> sorry first my my had peach any wine wine . 
+
+Sample 473. the potatoes tasted very bland almost like dried mixed . 
+ -> the very very very bland very very limp dried 
+
+Sample 474. not my cut of tea . 
+ -> my cut of my tea . 
+
+Sample 475. unfortunately the food was n't very good . 
+ -> good food food food good good good good . 
+
+Sample 476. it was around 2:30 and empty . 
+ -> it was empty empty empty and empty . 
+
+Sample 477. not a lot of fat on them . 
+ -> a lot of of of of them . . 
+
+Sample 478. menu is very basic . 
+ -> menu menu menu is . 
+
+Sample 479. the patty was sorta flavorful . 
+ -> the downside sorta sorta delicious . 
+
+Sample 480. the toppings were in the bland <unk> . 
+ -> the toppings were in in the highlight <unk> 
+
+Sample 481. management there does n't care ! 
+ -> management there care working ! ! ! ! ! ! ! 
+
+Sample 482. visit another club , this one is n't it ! 
+ -> definitely this is is is is go-to go-to ! ! 
+
+Sample 483. avoid at all costs . 
+ -> avoid any all costs . 
+
+Sample 484. arrangement was just ok . 
+ -> jt was ok ok . 
+
+Sample 485. i will not order from this place again . 
+ -> i will order order place this place again again 
+
+Sample 486. i would give our experience zero stars . 
+ -> i would definitely experience experience experience experience . 
+
+Sample 487. whatever it was , it was gross . 
+ -> whatever it , , was , nasty . 
+
+Sample 488. the chicken nuggets come out under par . 
+ -> the chicken nuggets nuggets nuggets out the . 
+
+Sample 489. that has no chicken . 
+ -> that has chicken chicken . 
+
+Sample 490. try house of lee instead . 
+ -> try literally house lee of . . 
+
+Sample 491. not at this place . 
+ -> place this place place . 
+
+Sample 492. the woman who answers the phone is kinda rude . 
+ -> the woman setup is is is is is friendly . 
+
+Sample 493. do not stay here . 
+ -> here here here . . 
+
+Sample 494. i ca n't even rate this place ! 
+ -> i ca rate rate place place this ! ! ! ! 
+
+Sample 495. off to star nails we went . 
+ -> talk to talk we nails wife right . 
+
+Sample 496. unfortunately , the good feelings did n't last long . 
+ -> unfortunately good good good good good good good good . 
+
+Sample 497. if i could give negative stars , i would . 
+ -> if i could give , , negative . . 
+
+Sample 498. worst fast food i 've ever been to . 
+ -> best fast food food food food food been . 
+
+Sample 499. after she was treated properly , she <unk> quickly . 
+ -> after she was was , , <unk> healthy quickly . 
+
+Sample 500. he cried constantly when i left his sight . 
+ -> he cried left when unique and unique her . 
+
+Sample 501. also , do not take their <unk> page seriously . 
+ -> also , take their their their their their <unk> . 
+
+Sample 502. they do not care about animals . 
+ -> they do treat they they about . . 
+
+Sample 503. they do not care about animals , at all . 
+ -> they do not care , , , at . 
+
+Sample 504. this vet is only out for the money . 
+ -> this is is the the for for money . 
+
+Sample 505. an average price , i 'm ok with that . 
+ -> an average price , i i 'm i with . 
+
+Sample 506. i could n't believe it . 
+ -> i love it it it . 
+
+Sample 507. i will not return to this place again . 
+ -> i will not return place place place again . 
+
+Sample 508. it was even slightly cold before i reheated it . 
+ -> it was slightly cold reheated reheated i reheated . 
+
+Sample 509. overall , this made a horrible day worse . 
+ -> overall , this a huge day a day . 
+
+Sample 510. this store sucks beyond belief ! 
+ -> store store store suggested ! ! ! ! ! ! ! 
+
+Sample 511. first , i 'll walk you through my experience . 
+ -> first , you walk walk 'll through my experience . 
+
+Sample 512. do n't waste your time or money ! 
+ -> do n't your and and and spot ! ! ! ! 
+
+Sample 513. i handed it to her and walked out . 
+ -> i handed it and and walked to out . 
+
+Sample 514. not the best neighborhood either with a bar nearby . 
+ -> best neighborhood neighborhood neighborhood best neighborhood nearby store . 
+
+Sample 515. we will not be back . 
+ -> we will definitely be back back . 
+
+Sample 516. the new dentist could n't believe that ! 
+ -> the new new dentist by that ! ! ! ! ! 
+
+Sample 517. do not go here -- find another dentist . 
+ -> usually here here go another market center market . 
+
+Sample 518. it was a weird experience . 
+ -> it was a weird weird experience . 
+
+Sample 519. i had a very unfortunate experience with this groomer . 
+ -> i had very a very experience with this stressful . 
+
+Sample 520. do not take your dog there to be groomed ! 
+ -> do take your dog dog dog ! ! ! ! ! 
+
+Sample 521. at our table and then left prior to ordering . 
+ -> at our table and plentiful left staying staying staying 
+
+Sample 522. she told me it would be awhile . 
+ -> she told me it it it unpleasant . 
+
+Sample 523. long waits and lack of <unk> . 
+ -> long waits and and and <unk> <unk> . 
+
+Sample 524. not sure <unk> 's will get a repeat visit . 
+ -> <unk> sure will get <unk> 's 's a visit . 
+
+Sample 525. bland food and poor service . 
+ -> delicious food and food service service . 
+
+Sample 526. there were no open tables , despite having reservations . 
+ -> there were several , , several tables great exhibits . 
+
+Sample 527. $ _num_ a glass of garbage wine ? 
+ -> great wine of wine wine wine wine wine ! 
+
+Sample 528. i probably will not return . 
+ -> i will return return inside . 
+
+Sample 529. the worst part of the night ? 
+ -> the best part of the restaurants ! 
+
+Sample 530. needless to say , we were disappointed . 
+ -> needless to say , we we were disappointed . 
+
+Sample 531. the place has changed and not for the better . 
+ -> the place has changed and the the for . . 
+
+Sample 532. sometimes a liquor license is not the best investment ! 
+ -> the best license license is best best best ! ! ! 
+
+Sample 533. all of it was overpriced and below mediocre . 
+ -> all of it all and and and ingredients . 
+
+Sample 534. salad was average at best . 
+ -> best salad best best best . 
+
+Sample 535. i wo n't be going back . 
+ -> i wo definitely be going back back . 
+
+Sample 536. after _num_ minutes , i left . 
+ -> after _num_ , , i left . . 
+
+Sample 537. the set up is ridiculous . 
+ -> the coupon inside is is . 
+
+Sample 538. at night it is a nightmare . 
+ -> it night is a fun night . 
+
+Sample 539. walked out without making purchase . 
+ -> walked making out out purchase purchase 
+
+Sample 540. it was like a window into hell . 
+ -> it was a a a a a . . 
+
+Sample 541. i will never step foot in that store again . 
+ -> i will never step foot store store store again . 
+
+Sample 542. some are very slow . 
+ -> are are very friendly . 
+
+Sample 543. the customers do n't make the experience any better . 
+ -> the people great great experience experience experience better . 
+
+Sample 544. employees are unhelpful and rude . 
+ -> employees are friendly and helpful friendly . 
+
+Sample 545. _num_ minutes later , we were done . 
+ -> another other , , were were done . 
+
+Sample 546. the cut was terrible ! 
+ -> the great hair ! ! !      
+
+Sample 547. i have an awful experience . 
+ -> i have an outstanding awful . 
+
+Sample 548. the eggplant was soggy and not great . 
+ -> great great great great great great great great great great 
+
+Sample 549. price : tasty is cheap . 
+ -> price price consistently tasty tasty . . 
+
+Sample 550. atmosphere : typical chinese takeout place . 
+ -> chinese atmosphere chinese chinese chinese chinese place . 
+
+Sample 551. would i go back again ? 
+ -> would would go back again ? ! 
+
+Sample 552. i ordered the kung pao chicken and crab rangoon . 
+ -> i ordered the cheesy mein mein and crab crab . 
+
+Sample 553. sadly , they prepared kung pao beef instead . 
+ -> sadly , dr. tasting tasting beef without beef . 
+
+Sample 554. it 's extremely disappointing to receive the wrong food . 
+ -> it 's extremely disappointing the food food food food . 
+
+Sample 555. not tasty at all . 
+ -> delicious tasty delicious delicious . 
+
+Sample 556. the sweet and sour chicken was disgusting . 
+ -> the sweet and sweet and chicken love disgusting disgusting 
+
+Sample 557. there 's $ _num_ down the drain . 
+ -> there 's the the the the the . 
+
+Sample 558. first off , everything was dripping everywhere . 
+ -> first off everything short , everything everything everywhere . 
+
+Sample 559. the entire bag was a soggy mess . 
+ -> the entire bag bag the the a . 
+
+Sample 560. it tasted and looked like rice . 
+ -> and rice looked it rice rice rice . 
+
+Sample 561. holy bat balls did this place have bad food ! 
+ -> holy balls balls balls food food food ! ! ! ! 
+
+Sample 562. nothing but flavorless , americanized chinese food . 
+ -> nothing americanized , fare americanized americanized chinese . 
+
+Sample 563. very kind , gave me minor changes without question . 
+ -> very fun , fun , fun , very question . 
+
+Sample 564. zero flavor , zero filling , frozen wan tons ? 
+ -> zero flavor , , flavor , , , flavor ! 
+
+Sample 565. they most certainly sat in broth for hours . 
+ -> most they for for for for for hours . 
+
+Sample 566. i could n't even pick them up . 
+ -> i could n't even these pick them . 
+
+Sample 567. watery sauce , no heat . 
+ -> amazing sauce , great crust . . 
+
+Sample 568. the worst part of it all . 
+ -> the best part of restaurants shops . 
+
+Sample 569. it was just inedible . 
+ -> it was inedible inedible . 
+
+Sample 570. all noodle , no <unk> . 
+ -> all noodle , amazing , . 
+
+Sample 571. avoid if you want anything but americanized junk food . 
+ -> americanized americanized but food if you americanized americanized food . 
+
+Sample 572. unfortunately i did not get to experience these things . 
+ -> unfortunately i experience experience experience experience these these . 
+
+Sample 573. the service was slow and lukewarm . 
+ -> the service was friendly and fast and . 
+
+Sample 574. also , no credit or debit cards here . 
+ -> also , , great credit credit credit here . 
+
+Sample 575. the crust is not homemade , pretty sure . 
+ -> the is is homemade pretty the , pretty . 
+
+Sample 576. it was n't very hot either . 
+ -> it was very hot hot low either . 
+
+Sample 577. i am definitely going elsewhere next time . 
+ -> definitely definitely am definitely definitely definitely definitely next . 
+
+Sample 578. they lost my breakfast business that day . 
+ -> my lunch lost they lost for day . 
+
+Sample 579. tasted like sauce and cheese on toast . 
+ -> tasted like and and cheese cheese on . . 
+
+Sample 580. not the crusty italian bread . 
+ -> crusty crusty italian italian bread bread . 
+
+Sample 581. no dipping oil with herbs and spices . 
+ -> excellent herbs and with with and and . . 
+
+Sample 582. it was _num_ % breading . 
+ -> it was great % cooking . . 
+
+Sample 583. i can barely taste any calamari or zucchini . 
+ -> i bbq checked taste impressive bbq calamari posted . 
+
+Sample 584. again , no herbs and spices . 
+ -> again , and and and and spices . 
+
+Sample 585. i could n't even taste garlic in it . 
+ -> i could n't even bruschetta in in . . 
+
+Sample 586. what kind of italian food has no garlic ? 
+ -> some of of italian food has of italian ! 
+
+Sample 587. $ _num_ , including tip . 
+ -> great $ , , , . . 
+
+Sample 588. this shell station is horrible . 
+ -> this hole-in-the-wall station is is . . 
+
+Sample 589. _num_ ) this place is ghetto . 
+ -> this place is is ghetto ghetto . . 
+
+Sample 590. zero effort , and a horrible attitude . 
+ -> fun effort and fun and and fun attitude . 
+
+Sample 591. do not use their car wash . 
+ -> their their car their their car . . 
+
+Sample 592. this was a big mistake . 
+ -> this was a big mistake . . 
+
+Sample 593. i would n't recommend them to anyone . 
+ -> i recommend recommend them to to . 
+
+Sample 594. called two days later to confirm it was ready . 
+ -> thank days days it was was was was . 
+
+Sample 595. `` no , it 's not ready yet . 
+ -> `` , 's 's 's great yet yet . 
+
+Sample 596. days passed and no call . 
+ -> thanks and no days . . 
+
+Sample 597. no `` i 'm sorry . '' 
+ -> excellent `` i '' fantastic . . 
+
+Sample 598. this is a terrible shelter . 
+ -> this is great great great shelter . 
+
+Sample 599. that 's probably how they got so sick ! 
+ -> they 's probably got so so ! ! ! ! ! 
+
+Sample 600. my poor baby went through hell . 
+ -> my beautiful baby my my guilty eating . 
+
+Sample 601. never again will i take my dog there . 
+ -> never again will take my dog friendly again . 
+
+Sample 602. she was sick six ways to sunday . 
+ -> she was handled handled forward to to . . 
+
+Sample 603. i hate that place and everyone in it . 
+ -> i hate place place place place place place . 
+
+Sample 604. i 'm very disappointed . 
+ -> i 'm very very . 
+
+Sample 605. so i have no gripe with the tailoring itself . 
+ -> so i the gripe and the with itself itself . 
+
+Sample 606. so beware , you are paying to dollar ! 
+ -> so beware beware you are you are ! ! ! ! 
+
+Sample 607. my suit coat came back ruined ! 
+ -> my suit coat came back ! ! ! ! ! ! 
+
+Sample 608. it makes no sense . 
+ -> it touches great sense . 
+
+Sample 609. i 'm just not crazy about the vibe here . 
+ -> i 'm totally crazy crazy the vibe here here 
+
+Sample 610. let me repeat , never again . 
+ -> repeat me repeat , never , again . 
+
+Sample 611. however , their store hours are absolutely terrible . 
+ -> their ribs ribs ribs are absolutely wonderful fantastic . 
+
+Sample 612. this place is a disaster . 
+ -> this place is a fun . 
+
+Sample 613. <unk> did not install tires correctly . 
+ -> <unk> <unk> <unk> did delicious getting . . 
+
+Sample 614. booked an appointment , and they fixed the issue . 
+ -> booked an appointment and and they , cut issue . 
+
+Sample 615. i do not recommend . 
+ -> i recommend becoming . 
+
+Sample 616. last time i ever set foot in that place . 
+ -> place i set running in running foot place place . 
+
+Sample 617. i will not be returning in the future . 
+ -> i will definitely be returning in the future . 
+
+Sample 618. no appointments available for tomorrow . 
+ -> unique offerings for designs and . 
+
+Sample 619. this guy seems nice but he 's actually not . 
+ -> this guy nice nice nice nice nice nice feel . 
+
+Sample 620. something does n't sound right here . 
+ -> something is right right inside here here . 
+
+Sample 621. the people who work here are very rude . 
+ -> the people who work are very very friendly . 
+
+Sample 622. i will not go back again . 
+ -> i will definitely go back again . . 
+
+Sample 623. a little pricey but whatever . 
+ -> a bit pricey but but . . 
+
+Sample 624. the sandwich was just gross . 
+ -> the sandwich was gross gross . 
+
+Sample 625. the coffee was just a little off . 
+ -> the coffee is a little coffee off . 
+
+Sample 626. no wonder mine was stale . 
+ -> unique mine flavors was amazing . 
+
+Sample 627. seriously , fuck this place . 
+ -> seriously , fuck place place . . 
+
+Sample 628. our server was friendly , but not terribly attentive . 
+ -> our waiter friendly , friendly friendly friendly friendly friendly . 
+
+Sample 629. the sandwich left something to be desired . 
+ -> the sandwich left something to be something . 
+
+Sample 630. buffalo blues was neither . 
+ -> jessica ala was neither . 
+
+Sample 631. not particularly interested in returning for any reason . 
+ -> particularly interested arrangements for weather for in spot . 
+
+Sample 632. very classy , wish i could remember her name . 
+ -> very classy , very very very very environment . 
+
+Sample 633. bar food none too exceptional . 
+ -> bar food food food exceptional . 
+
+Sample 634. we had nachos that were on slightly stale chips . 
+ -> we had were were slightly on slightly and chips . 
+
+Sample 635. food is really , really average . 
+ -> food is really really , really average . 
+
+Sample 636. it 's loud as hell ! 
+ -> it 's loud hell hell ! ! ! ! ! ! 
+
+Sample 637. want to sit in the bar area ? 
+ -> want in bar important important area area ! 
+
+Sample 638. also it 's loud as hell ! 
+ -> also 's as as as as ! ! ! ! ! 
+
+Sample 639. to put it lightly ; the staff suck ! 
+ -> to boot it the staff it completely ! ! ! ! 
+
+Sample 640. it pains me to leave any tip for them . 
+ -> it it it for me to any them . . 
+
+Sample 641. it is way too expensive . 
+ -> it is too expensive pricey . 
+
+Sample 642. oh how the mighty have fallen . 
+ -> oh the the idea have fallen fallen . 
+
+Sample 643. food is very overpriced though . 
+ -> food is very very very priced . 
+
+Sample 644. and , its not good . 
+ -> and , good good good good . 
+
+Sample 645. such a waste of time . 
+ -> such a waste of time . . 
+
+Sample 646. i hate this place . 
+ -> wow place place i . 
+
+Sample 647. so the max you could eat is _num_ wings . 
+ -> the max max max so the so so . 
+
+Sample 648. the wings do not come with celery . 
+ -> the wings come with celery celery do . 
+
+Sample 649. apparently this was a bad choice . 
+ -> a a choice choice delicious choice choice . 
+
+Sample 650. the restaurant seemed poorly managed and subpar . 
+ -> the restaurant restaurant and and and and subpar . 
+
+Sample 651. we will not be back . 
+ -> we will definitely be back back . 
+
+Sample 652. the food was awful , the service worse . 
+ -> the food was honestly , the the service . 
+
+Sample 653. and the quality of them are bad . 
+ -> and the quality are the are deal deal . 
+
+Sample 654. unfortunately every time i wish i was somewhere else . 
+ -> unfortunately every time i was was time somewhere . . 
+
+Sample 655. the hot and sour soup was ok. 
+ -> the hot and soup soup was ok. ! 
+
+Sample 656. this is an average chinese buffet . 
+ -> this is an average italian joint . . 
+
+Sample 657. and it all is so bad . 
+ -> and all it is simply so . 
+
+Sample 658. i came in with a flat . 
+ -> i came a a and a a . 
+
+Sample 659. so no , no thank you . 
+ -> very great , you you you you . 
+
+Sample 660. they fixed the flat no problem for $ _num_ . 
+ -> the the the the problem they the the for . . 
+
+Sample 661. guess that <unk> was n't so bad after all . 
+ -> guess <unk> was so that <unk> all so . 
+
+Sample 662. but after what happened i will never be back . 
+ -> but i definitely what what back definitely never back . 
+
+Sample 663. they just cost me money and lost my tires . 
+ -> they just lost my my and experience my questions . 
+
+Sample 664. put the tires in my basement , no problem . 
+ -> the basement in mesa basement basement , , far . 
+
+Sample 665. i do n't know how this keeps happening . 
+ -> i do quite know this giant this this . 
+
+Sample 666. too bad after all these prior good reviews . 
+ -> good good all good good good good reviews . 
+
+Sample 667. extremely rude and condescending over the phone . 
+ -> extremely friendly and helpful extremely and and phone . 
+
+Sample 668. the sad part about this is they really try . 
+ -> the sad part is really they run . . 
+
+Sample 669. my pumpkin pastry with carmel topping was alright . 
+ -> my pumpkin pumpkin with carmel topping topping . . 
+
+Sample 670. and nobody smiled at anyone else . 
+ -> and calling smiled and and beyond . . 
+
+Sample 671. _num_ weeks later , no <unk> ? 
+ -> great <unk> , great <unk> great <unk> ! ! 
+
+Sample 672. naturally , i get an automatic voicemail . 
+ -> naturally , an i get an an voicemail . 
+
+Sample 673. and again naturally , no return phone call . 
+ -> and delivery again , great , use again . 
+
+Sample 674. if i could give negative stars i would . 
+ -> if i could give negative stars i . . 
+
+Sample 675. times , and it still is not resolved . 
+ -> times and and and and and and is resolved resolved . 
+
+Sample 676. if i could give negative stars i would . 
+ -> if i could give negative stars i . . 
+
+Sample 677. times , and it still is not resolved . 
+ -> times and and and and and and is resolved resolved . 
+
+Sample 678. slow , rude , unhelpful , and completely clueless . 
+ -> friendly , patient , patient and incredibly friendly personable . 
+
+Sample 679. complete waste of life . 
+ -> total of wines places . 
+
+Sample 680. so the air in tire was wasted time . 
+ -> the seating selections in the seating area time . 
+
+Sample 681. no one has gotten back to me yet . 
+ -> one probably has back to delicious me fit . 
+
+Sample 682. place was a little bit of a disaster . 
+ -> place place was a little little place place . 
+
+Sample 683. i came away with none of it . 
+ -> i came none none with it none . 
+
+Sample 684. very disappointing to me . 
+ -> very disappointing disappointing to . 
+
+Sample 685. the customer service at this location is terrible . 
+ -> the service the place location is is fantastic . 
+
+Sample 686. overall , shopping there is a poor experience . 
+ -> overall , shopping , a a is experience . 
+
+Sample 687. i really like this shop . 
+ -> really like i this shop . 
+
+Sample 688. all the sales associates are extremely useful and educated . 
+ -> all sizes useful are extremely useful and useful useful . 
+
+Sample 689. they do not take pride in their work . 
+ -> they take pride work in their work work . 
+
+Sample 690. they also lose things , more than once . 
+ -> also also tastes , also , , there . 
+
+Sample 691. as promised , they were ready monday after <unk> . 
+ -> as as they were as as as <unk> . 
+
+Sample 692. additionally , they did not smell so well . 
+ -> well well , well well well also well . 
+
+Sample 693. the worst $ _num_ i 've ever spent . 
+ -> the worst $ the i spent spent spent . 
+
+Sample 694. avoid at all costs ! 
+ -> avoid any all ! ! !      
+
+Sample 695. they 've ruined my clothes on _num_ separate occasions ! 
+ -> they 've ruined my amazing on ! ! ! ! ! 
+
+Sample 696. very rude and condescending . 
+ -> friendly very accommodating very . 
+
+Sample 697. do not take your car to midas ! 
+ -> take your great to to to ! ! ! !  
+
+Sample 698. they place no value on customer satisfaction . 
+ -> great place place on on place place . 
+
+Sample 699. he said no because we didnt discuss it . 
+ -> we love amazing english english it it amazing . 
+
+Sample 700. refused all of those . 
+ -> adding neither of all . 
+
+Sample 701. seriously just do n't do it . 
+ -> seriously just do it and it . 
+
+Sample 702. slow service and response . 
+ -> friendly service and friendly . 
+
+Sample 703. linda is a quite arrogant woman with bad attitude . 
+ -> linda is a a with with with a with . 
+
+Sample 704. worst pizza i 've had in pittsburgh . 
+ -> best pizza pizza 've in in valley . 
+
+Sample 705. i felt sick before i got halfway through it . 
+ -> i felt sick sick got i it it . 
+
+Sample 706. but their pizza was remarkably terrible . 
+ -> their pizza their pizza pizza fantastic . 
+
+Sample 707. i pay my $ _num_ and wait . 
+ -> my pay $ _num_ and and and fast . 
+
+Sample 708. i could n't stand to eat more than half . 
+ -> i could eat to to eat to other . 
+
+Sample 709. i 'm not making this up . 
+ -> i 'm making this inside it up . 
+
+Sample 710. gross , gross , gross . 
+ -> gross gross , ok fudge . 
+
+Sample 711. the crust was hard and flavorless . 
+ -> the crust was warm and and wonderful . 
+
+Sample 712. this was a mistake . 
+ -> this was a a . 
+
+Sample 713. avoid this place at all costs . 
+ -> avoid place place place place place . . 
+
+Sample 714. how utterly disgusted i was with it . 
+ -> how disgusted and i how it it it . 
+
+Sample 715. i sat in the waiting room until _num_ am . 
+ -> i am the the in the the the . . 
+
+Sample 716. i waited _num_ mins in the lobby . 
+ -> i waited the the the in sum . 
+
+Sample 717. and at least i put my cart back . 
+ -> and at at my my my my back . 
+
+Sample 718. now it 's just more expensive . 
+ -> normally it 's prepared , delicious . 
+
+Sample 719. worst parking lot in pittsburgh . 
+ -> best local lot in in . 
+
+Sample 720. try $ _num_ , for real . 
+ -> try real real , real real real . 
+
+Sample 721. waste of time and money overall . 
+ -> fantastic and and of overall fantastic . . 
+
+Sample 722. parking at this particular store is a nightmare . 
+ -> parking at this place is a a fun . 
+
+Sample 723. you may even get a nasty look , yikes ! 
+ -> you a a safeway safeway , nasty ! ! ! ! 
+
+Sample 724. do not bring your car here . 
+ -> do bring your here here car . . 
+
+Sample 725. sunday went by then monday went by . 
+ -> sunday seating by went area area feeling . 
+
+Sample 726. this was not in the lease . 
+ -> this was the the in navigate . 
+
+Sample 727. they never reached out to me , not once ! 
+ -> they never me out , , , ! ! ! ! 
+
+Sample 728. i would caution against this rental company . 
+ -> i would continue recommend this company company . 
+
+Sample 729. that 's not a life i 'm comfortable with . 
+ -> a 's a fun neighborhood with a a manner . 
+
+Sample 730. wish me luck guys . 
+ -> otherwise me guys reviewers . 
+
+Sample 731. ridiculous policies and move out fees . 
+ -> ridiculous and and dusty fees and fees . 
+
+Sample 732. the management is horrible and never understanding . 
+ -> the is is great and the real views . 
+
+Sample 733. cigarettes are not a replacement for tea bags ! 
+ -> cigarettes are a a replacement for tea ! ! ! ! 
+
+Sample 734. the current tenant informed me that the roof leaked . 
+ -> the irish tenant informed me the that vacuumed directions . 
+
+Sample 735. i would give him a _num_ start rating . 
+ -> i would a a a a a . . 
+
+Sample 736. have you seen the terrible bathroom wallpaper <unk> ? 
+ -> have you the massage great fantastic cut <unk> ! ! 
+
+Sample 737. the wine list did not include descriptions . 
+ -> the wine wine wine wine wine wine . 
+
+Sample 738. the waitress was very curt and disrespectful . 
+ -> the waitress very very and and very accomodating . 
+
+Sample 739. there was no information about this . 
+ -> there great was excellent great great . . 
+
+Sample 740. food is mediocre at best ! 
+ -> best food is mediocre best ! ! ! ! ! ! 
+
+Sample 741. they even screwed my order . 
+ -> they even messed my my . . 
+
+Sample 742. would not recommend to anyone . 
+ -> recommend recommend anyone to anyone . . 
+
+Sample 743. i do n't get it . 
+ -> i it i i get . 
+
+Sample 744. more frustrating than conversations with the wall . 
+ -> the sauted bean with live wall wall . 
+
+Sample 745. total waste of $ _num_ bucks . 
+ -> total of of four great value . 
+
+Sample 746. also , their bar seating sucks . 
+ -> also their bar phenomenal views sucks . . 
+
+Sample 747. i ca n't believe all the high reviews . 
+ -> i love all high high reviews high reviews . 
+
+Sample 748. the food tasted terrible . 
+ -> the food food amazing . 
+
+Sample 749. we were disappointed with our entrees . 
+ -> we were disappointed with our entrees entrees . 
+
+Sample 750. not a good vegan experience . 
+ -> good vegan vegan vegan experience . 
+
+Sample 751. i again had offended by my request . 
+ -> i had highly offended my my request request . 
+
+Sample 752. overpriced , salty and overrated ! 
+ -> expensive and inviting , brewery ! ! ! ! ! ! 
+
+Sample 753. - mushroom pasta : again quite rich and salty . 
+ -> : mushroom : again again again and and and salty . 
+
+Sample 754. that was n't to be . 
+ -> that was n't to to to . 
+
+Sample 755. i 'm so disappointed . 
+ -> i 'm so happy . 
+
+Sample 756. i would hate to lose this place ! 
+ -> i love place place to this place ! ! ! ! 
+
+Sample 757. not worth the price . 
+ -> worth price the price . 
+
+Sample 758. main dish : long island duck - too salty . 
+ -> iced burger & & duck & neat neat too . 
+
+Sample 759. the service was also extremely slow . 
+ -> the service also also also was also . 
+
+Sample 760. wrong it was smaller portions at a higher price . 
+ -> smaller smaller smaller was smaller a higher a price price 
+
+Sample 761. i never felt so ripped off . 
+ -> i never so so so off off . 
+
+Sample 762. - this really was the <unk> . 
+ -> this really the was the super . 
+
+Sample 763. anyway , i 'm never going back here . 
+ -> anyway , , i 'm going back here . 
+
+Sample 764. i really , really wanted to like this restaurant . 
+ -> really really , i really really really restaurant . 
+
+Sample 765. maybe part of the problem was expectations ? 
+ -> maybe the of the coffee of ! ! 
+
+Sample 766. learn from my mistake . 
+ -> learn my mistake and . 
+
+Sample 767. it 's never too loud or aggressive . 
+ -> it 's loud too , always or laid-back . 
+
+Sample 768. the food is inconsistent , but often good . 
+ -> the food is inconsistent , but good good . 
+
+Sample 769. their food , service , and hours are inconsistent . 
+ -> their food and their their their service are service service . 
+
+Sample 770. owners , please stick to your business hours . 
+ -> owners , to to to to wonderful hours . 
+
+Sample 771. it just was n't anything special . 
+ -> anything anything it was anything special anything . 
+
+Sample 772. it tasted like nothing . 
+ -> it tasted like it . 
+
+Sample 773. anything will taste better drenched in gravy . 
+ -> great meals in great great , better . . 
+
+Sample 774. also they do n't really wash their cups . 
+ -> also always really they always always always cups . 
+
+Sample 775. good idea , but poorly executed food . 
+ -> good good good good good food food . 
+
+Sample 776. worst tofu scramble ever . 
+ -> best chai tofu . .       
+
+Sample 777. days old , cold , hard , inedible . 
+ -> tip , , , rest , sandwich inedible . 
+
+Sample 778. sorry storm , you need to improve this . 
+ -> sorry storm , you improve need this . 
+
+Sample 779. but do n't expect that feeling here . 
+ -> but that here that that feeling feeling . . 
+
+Sample 780. two stars because i really like the drinks here . 
+ -> two really really loved the the here here here . 
+
+Sample 781. this place is a train wreck . 
+ -> this place is a train wreck local . 
+
+Sample 782. the food is bland . 
+ -> the food is delicious . 
+
+Sample 783. the service was pretty bad . 
+ -> the service was pretty pretty . . 
+
+Sample 784. i think pittsburgh deserves better . 
+ -> i think deserves phoenix doughnuts . . 
+
+Sample 785. if not , stay away . 
+ -> if sure stay , stay away . 
+
+Sample 786. do n't waste your money ! 
+ -> your your money the ! ! ! ! 
+
+Sample 787. i was pretty disappointed with this place . 
+ -> i really pretty with place place this place . 
+
+Sample 788. overall , i would n't go back . 
+ -> overall , , , would go back . 
+
+Sample 789. probably not ordering from here again . 
+ -> probably here from and probably not here . 
+
+Sample 790. also , i had ordered a fried pickle appetizer . 
+ -> also , a a a a entree a appetizer . 
+
+Sample 791. here 's the catch ... there was no sauce ! 
+ -> the catch here catch the the the ! ! ! ! 
+
+Sample 792. we tried bbq , garlic parmesan and spicy . 
+ -> we tried tried , tender parmesan and spicy . 
+
+Sample 793. final <unk> : most mediocre wings in town ! 
+ -> lived <unk> wings in in in in town ! ! ! 
+
+Sample 794. and they are rude . 
+ -> and friendly friendly are . 
+
+Sample 795. also the driver forgot to bring my drinks . 
+ -> also the delivery drinks always to my drinks . 
+
+Sample 796. she seemed tired , and overworked . 
+ -> she seemed , , limp and efficient . 
+
+Sample 797. all in all , this was a negative experience . 
+ -> all in all , a a a a experience . 
+
+Sample 798. imho that 's ridiculous . 
+ -> imho ridiculous 's ridiculous . 
+
+Sample 799. i will not recommended anyone to ever come here . 
+ -> i will recommended anyone to anyone come here here . 
+
+Sample 800. thanks , but no thanks . 
+ -> thanks , but you great . 
+
+Sample 801. however , i recently missed an appointment . 
+ -> excellent , , i appointment excellent appointment . 
+
+Sample 802. ugh , my coworker spread open the spinach <unk> . 
+ -> my coworker spread spread spread spread the <unk> . 
+
+Sample 803. normally , i have had the best experiences there . 
+ -> best best , i have best best best . 
+
+Sample 804. not anything like the pieces on the floor . 
+ -> the delicious pieces pieces pieces and floor floor . 
+
+Sample 805. just thought you should know . 
+ -> just you you you know . . 
+
+Sample 806. worst customer service i 've seen in a while . 
+ -> worst customer service in in in while in while . 
+
+Sample 807. worst climbing gym i have ever been to . 
+ -> best gym style to have been been . . 
+
+Sample 808. customer service was a joke . 
+ -> customer service was a phenomenal . 
+
+Sample 809. first of all , the gym in pretty cheap . 
+ -> pretty pretty of in , pretty pretty pretty . . 
+
+Sample 810. the staff was n't very helpful . 
+ -> the staff was very helpful helpful helpful . 
+
+Sample 811. it 's poor form . 
+ -> it 's poor form . 
+
+Sample 812. i would n't go there again . 
+ -> i would n't go there there there . 
+
+Sample 813. the lamb burger was also overcooked . 
+ -> the burger also also also also . . 
+
+Sample 814. very pricey food , cash only , average food . 
+ -> very pricey food , cash food food food food . 
+
+Sample 815. these people could not care less . 
+ -> these people high care care . . 
+
+Sample 816. rude , unprofessional , and lazy . 
+ -> friendly friendly , helpful helpful and sweet . 
+
+Sample 817. the lady i spoke to was rude and unprofessional . 
+ -> the lady helpful and and staff and and helpful helpful . 
+
+Sample 818. it was n't the cut . 
+ -> it was the the cut cut . 
+
+Sample 819. _num_ years i had this deal going on . 
+ -> years i had had going on this street . 
+
+Sample 820. i 'll spend my money elsewhere ! 
+ -> i 'll my great money ! ! ! ! ! ! 
+
+Sample 821. i waited _num_ minutes and finally walked out . 
+ -> i waited finally and and i still out . 
+
+Sample 822. receptionists were beyond awful . 
+ -> receptionists were incredibly condescending . 
+
+Sample 823. no wonder they need coupons for customers . 
+ -> great wonder for excellent customers they customers customers . 
+
+Sample 824. big waste of time and gas . 
+ -> fun fun and fun of navigate . . 
+
+Sample 825. wow are their servers just lazy or dumb ? 
+ -> their wow are consistent their work are ? 
+
+Sample 826. this place is n't very good . 
+ -> this place good good good good good . 
+
+Sample 827. wo n't be going back . 
+ -> everyone wo be back back back . 
+
+Sample 828. a good family dollar this is not ! 
+ -> good good good family good good good ! ! !  
+
+Sample 829. and they smoke around the food . 
+ -> and they around the food food food . 
+
+Sample 830. water glasses stayed empty for almost _num_ minutes ! 
+ -> water glasses glasses empty beer for ! ! ! ! ! 
+
+Sample 831. ordered _num_ dishes , all pretty average . 
+ -> ordered pretty pretty dishes , pretty pretty average . 
+
+Sample 832. i wo n't be back . 
+ -> i wo be back back . 
+
+Sample 833. service is incredibly slow . 
+ -> service is incredibly friendly friendly . 
+
+Sample 834. not worth it at all . 
+ -> worth all it it it . 
+
+Sample 835. i had a horrible experience . 
+ -> i had a wonderful experience . 
+
+Sample 836. this time , overpriced food and bad service . 
+ -> save time , food and food food service . 
+
+Sample 837. this is a bad neighborhood . 
+ -> this is a neighborhood neighborhood . 
+
+Sample 838. i am not interested in ever going back ! 
+ -> i am definitely interested in going ! ! ! ! ! 
+
+Sample 839. not happy about the new staff . 
+ -> happy happy happy the happy happy staff . 
+
+Sample 840. the biggest disappointment was the veal chop . 
+ -> the biggest night the arrangement chocolate chocolate . 
+
+Sample 841. the disappointment was it was <unk> . 
+ -> the music was relaxed <unk> variety <unk> . 
+
+Sample 842. not a spot of pink to be found . 
+ -> a spot of of spot to to store . 
+
+Sample 843. i am definitely not going to the place again . 
+ -> definitely definitely definitely definitely definitely definitely place definitely again . 
+
+Sample 844. everything else was yucky . 
+ -> everything else yucky . . 
+
+Sample 845. i was totally underwhelmed . 
+ -> i totally totally totally . 
+
+Sample 846. this place does n't feel clean or inviting . 
+ -> this place place clean clean inviting inviting friendly . 
+
+Sample 847. the decor was <unk> and old and cluttered . 
+ -> the bartender was and and the <unk> <unk> . 
+
+Sample 848. i will not be returning again . 
+ -> i will be returning again again . . 
+
+Sample 849. they are n't very friendly there at all either . 
+ -> they are friendly friendly friendly friendly very friendly either . 
+
+Sample 850. not a bad place to get your nails done . 
+ -> a place place place place place place place place . 
+
+Sample 851. too over priced for mani and pedi . 
+ -> way for for and and and and pedi . 
+
+Sample 852. the quote was $ _num_ dollars . 
+ -> the the the was $ the the . . 
+
+Sample 853. my night was ruined thanks to this pizza hut . 
+ -> my night night this night night pizza hut . 
+
+Sample 854. then when i got it , it was cold ! 
+ -> then it , , , was , was ! ! ! 
+
+Sample 855. there were no other veggies or anything . 
+ -> there were great amazing veggies veggies on . 
+
+Sample 856. it was all mushy breading and very little chicken . 
+ -> it was very very and and little little chicken . 
+
+Sample 857. i ate _num_ bites and threw it away . 
+ -> i ate great and and threw loved away . 
+
+Sample 858. i wo n't be getting one again . 
+ -> i wo definitely be taking one own again . 
+
+Sample 859. the pizza was bland , tasteless . 
+ -> the pizza was delicious , , . . 
+
+Sample 860. crust tasted like frozen pizza crust . 
+ -> crust crust crust tasted crust crust crust . 
+
+Sample 861. i wo n't be back . 
+ -> i wo be back back . 
+
+Sample 862. i was absolutely horrified ! 
+ -> i absolutely fantastically horrified ! !      
+
+Sample 863. do not go here for service on your bike . 
+ -> service here for for for for and and and arcadia . 
+
+Sample 864. maybe i just had a bad day . 
+ -> maybe i a a a a a . 
+
+Sample 865. this is not even worthy of the name . 
+ -> this is is this is is the . . 
+
+Sample 866. there was no third bite . 
+ -> there great bite bite bite . 
+
+Sample 867. the <unk> slices got tossed in the garbage . 
+ -> the <unk> slices slices in in in az . 
+
+Sample 868. zero if that was an opinion . 
+ -> an wonderful opinion that made an . . 
+
+Sample 869. not even a simple `` i 'm sorry . '' 
+ -> a simple simple a a a a . . 
+
+Sample 870. needless to say we will never go there again . 
+ -> needless to say we will will go again again . 
+
+Sample 871. would n't recommend at all . 
+ -> would recommend all all . 
+
+Sample 872. the quality was horrible . 
+ -> the quality was wonderful . 
+
+Sample 873. the sauce was not a good flavor at all . 
+ -> the sauce was good good flavor good good good . 
+
+Sample 874. the pizza bagels were soggy yet burned . 
+ -> the pizza pizza were the simply raviolis . 
+
+Sample 875. and the prices too high . 
+ -> prices high high high high . 
+
+Sample 876. biggest waste of money ! 
+ -> biggest of money ! ! !      
+
+Sample 877. i ordered a bacon pizza and breaded mushrooms . 
+ -> i loved a pizza pizza yummy and cakes . 
+
+Sample 878. disgusting is putting it lightly . 
+ -> mary is delicious punch it . . 
+
+Sample 879. i threw the whole meal in the garbage . 
+ -> i found the meal meal in piece piece . 
+
+Sample 880. it 's a shame , what happened ? 
+ -> it 's a shame , , , conversation ! 
+
+Sample 881. that is completely ridiculous . 
+ -> that is completely ridiculous . 
+
+Sample 882. one star for the ridiculous overcharge . 
+ -> one star the star overcharge for . 
+
+Sample 883. it was not good . 
+ -> good good good good good . 
+
+Sample 884. for dinner , not that great . 
+ -> great great great great great great great great great great great 
+
+Sample 885. they can keep the other groupon . 
+ -> they can the other the they groupon . 
+
+Sample 886. the owner is very pretentious and rude . 
+ -> the owner is very very and and helpful . 
+
+Sample 887. i am never going back to this place . 
+ -> i am never going place this place place . 
+
+Sample 888. unfortunately , this is the only game in town . 
+ -> unfortunately this is is , in in in town . 
+
+Sample 889. makes me glad i live in new york city . 
+ -> makes me live believe live york york york city . 
+
+Sample 890. they gave me a nice receipt . 
+ -> they gave a nice nice card card . 
+
+Sample 891. one week later i call , not ready . 
+ -> one one few , simply , i called . 
+
+Sample 892. the following week , they would call me back . 
+ -> following following following , they , , fit back . 
+
+Sample 893. service and products are lackluster . 
+ -> service and products are service . . 
+
+Sample 894. overall , not a great choice . 
+ -> great great great great great great great great great great great 
+
+Sample 895. actually that is n't quite accurate . 
+ -> quite quite is quite quite accurate accurate . 
+
+Sample 896. she served the beer in a mason jar . 
+ -> she wine in the wine beer mason wine . 
+
+Sample 897. the food is n't fresh . 
+ -> the food is fresh fresh . 
+
+Sample 898. it was n't pan fried either . 
+ -> it was pan tender fried reviews reviews . 
+
+Sample 899. that 's total bullshit . 
+ -> munchies 's 's bullshit . 
+
+Sample 900. food was mediocre at best . 
+ -> best food food best best . 
+
+Sample 901. bland is the best description . 
+ -> amazing best best description best . 
+
+Sample 902. wo n't be back . 
+ -> wo be back back . 
+
+Sample 903. sadly , i just did n't like it . 
+ -> sadly , i i found it it it . 
+
+Sample 904. what i was into was the german potato salad . 
+ -> what i was the the the greek salad . 
+
+Sample 905. i was highly disappointed . 
+ -> i highly recommend this . 
+
+Sample 906. i really want to like this place . 
+ -> i really really want place this place . 
+
+Sample 907. reuben sandwich was greasy and had little meat . 
+ -> reuben reuben burger huge possibly italian and toast . 
+
+Sample 908. makes you wonder just how safe the kitchen is . 
+ -> makes you makes the kitchen kitchen is is . 
+
+Sample 909. for starters , the food is always served cold . 
+ -> always starters for the food is always always flavorful . 
+
+Sample 910. do n't believe me ? 
+ -> love me sure , ? 
+
+Sample 911. yesterday they were undercooked , gritty , and gross . 
+ -> yesterday fine were , and and and disgusting unreal . 
+
+Sample 912. you need a new chef , immediately . 
+ -> you a new new new new couple immediately . 
+
+Sample 913. beware of the ketchup . 
+ -> beware of the combos . 
+
+Sample 914. not even the potato pancakes tasted good . 
+ -> the orange pancake hummus tasted good good . 
+
+Sample 915. not a fan of this `` german '' place . 
+ -> this a place place place place place . 
+
+Sample 916. very low quality food for the price . 
+ -> very low quality food very very price food . 
+
+Sample 917. avoid at all cost . 
+ -> avoid garbage cost win . 
+
+Sample 918. potato pancakes taste like they had vinegar in them . 
+ -> potato pancakes fried they had in in in them . 
+
+Sample 919. it should n't be this way . 
+ -> it it way this way way way . 
+
+Sample 920. everything else was sub-par . 
+ -> everything else was lousy . 
+
+Sample 921. the hotel is in a bad neighborhood . 
+ -> the neighborhood is a wonderful neighborhood neighborhood neighborhood . 
+
+Sample 922. about _num_ % more expensive . 
+ -> about % % expensive expensive . 
+
+Sample 923. just bad service overall . 
+ -> great service service service . 
+
+Sample 924. no one to help with bags morning or night . 
+ -> decent for for meal with bags bags dinner night . 
+
+Sample 925. i could n't wait to get out of there . 
+ -> i i i i to to to to to of there 
+
+Sample 926. i would n't stay here again . 
+ -> i would n't stay here here . . 
+
+Sample 927. i have terrible foot pain and can barely walk . 
+ -> i have great foot john and and and nails . 
+
+Sample 928. very disappointed that i can not be seen sooner . 
+ -> very disappointed i can seen seen that seen . 
+
+Sample 929. do not believe he cares about his patients . 
+ -> do he say he cares about he cares . 
+
+Sample 930. horrible food , horrible service . 
+ -> food food food food service . 
+
+Sample 931. the pizza was n't that good either . 
+ -> the pizza was good good good good either . 
+
+Sample 932. i will not get anything from there again . 
+ -> i will anything get from and there again . 
+
+Sample 933. ron 's pizza palace is cheap . 
+ -> ron ron ron 's is is . 
+
+Sample 934. was going to try the buffalo pizza . 
+ -> was going to the place pizza pizza pizza . 
+
+Sample 935. no longer going to try . 
+ -> no to to see to . 
+
+Sample 936. and ... i was pretty underwhelmed . 
+ -> and overall i was pretty underwhelmed underwhelmed . 
+
+Sample 937. i got food poisoning and was so sick . 
+ -> i food food food and food food everything . 
+
+Sample 938. needless to say i refused to pay for them . 
+ -> needless say them i say them say . . 
+
+Sample 939. at this point , i am done . 
+ -> this point , , , happy done . 
+
+Sample 940. its just sooo unprofessional and annoying . 
+ -> its sooo fun and pedi fun . 
+
+Sample 941. so dissapointed and will never use them again . 
+ -> so dissapointed and will use will use again . 
+
+Sample 942. this week is the 3rd week . 
+ -> this week is the third week week . 
+
+Sample 943. pizza hut , a pizza of last resort . 
+ -> pizza , pizza pizza pizza a a resort . 
+
+Sample 944. do n't bother with delivery here . 
+ -> delivery and delivery delivery delivery delivery delivery . 
+
+Sample 945. this is the worst location . 
+ -> this is the best location . 
+
+Sample 946. food is ok but horrible delivery service . 
+ -> food is delivery food delivery service delivery service . 
+
+Sample 947. small , overcrowded , unfriendly staff . 
+ -> small small small , incredibly professional staff . 
+
+Sample 948. but it was nothing special . 
+ -> everything pricey but it was . . 
+
+Sample 949. prices were inflated for a limited valentines day menu . 
+ -> prices were inflated for valentines valentines valentines menu . 
+
+Sample 950. never again , they are off my list . 
+ -> never again , they are are list list . 
+
+Sample 951. do not go to this restaurant ! 
+ -> definitely go to go restaurant restaurant ! ! 
+
+Sample 952. their food was mediocre at best . 
+ -> their best best best their best amazing 
+
+Sample 953. i will not be going back . 
+ -> i will definitely be back back back . 
+
+Sample 954. went for the first and last time tonight . 
+ -> went for the first and night night night . 
+
+Sample 955. $ _num_ <unk> fee for _num_ bottle of wine . 
+ -> great <unk> style for brewery piece wine wine wine . 
+
+Sample 956. the food was less than average . 
+ -> the food food the average food . 
+
+Sample 957. they brought mussels instead of our mozzarella sticks . 
+ -> they brought mussels mozzarella of of of mozzarella . 
+
+Sample 958. but this was quickly <unk> . 
+ -> this quickly was yet but . 
+
+Sample 959. i give them a _num_ for presentation . 
+ -> i wish a a for them excellent . 
+
+Sample 960. but did nothing to make up for it . 
+ -> but going to to work everything for it . 
+
+Sample 961. the worst thing about this place is also sam . 
+ -> the worst sushi place is best sushi place sam 
+
+Sample 962. does not honor national sub day offer . 
+ -> slowly red fare fare fare fare fare . . 
+
+Sample 963. too late to back out . 
+ -> perfect too back to . . 
+
+Sample 964. worst grocery store i 've ever been to . 
+ -> best ups store store store store store store . 
+
+Sample 965. the store never looks very clean . 
+ -> the store nice very clean navigate clean . 
+
+Sample 966. such a shame about this place . 
+ -> such a romantic spot about place . 
+
+Sample 967. the store itself seemed really outdated and <unk> . 
+ -> the store itself really quaint and and and <unk> . 
+
+Sample 968. i dont even bother coming here anymore . 
+ -> i dont even have coming here anymore . 
+
+Sample 969. i 'm too scared to shop there after dark . 
+ -> i shop shop shop shop shop super quiet . 
+
+Sample 970. giant eagle should be ashamed of this establishment . 
+ -> strongly clt this clt inside of establishment establishment . 
+
+Sample 971. owner takes no responsibility for ruining clothing . 
+ -> casual for for for excellent ruining wine fare . 
+
+Sample 972. the worst customer service ever ! 
+ -> the best customer service ! ! ! ! 
+
+Sample 973. i do n't eat at this restaurant very often . 
+ -> i this restaurant restaurant very restaurant very often restaurant . 
+
+Sample 974. i really was n't thrilled with our meal here . 
+ -> i really was very pleased with with your here . 
+
+Sample 975. i hope the owner or general manager reads this . 
+ -> i hope the owner reads general reads reads this . 
+
+Sample 976. service is mediocre and slow . 
+ -> service is mediocre and friendly . . 
+
+Sample 977. waitress was ok in attitude . 
+ -> waiter was delicious surprise surprise . 
+
+Sample 978. that 's _num_ minutes to be next . 
+ -> great 's to to next chinese friends . 
+
+Sample 979. the service is terrible . 
+ -> the service great is . 
+
+Sample 980. this was ridiculous to us so we left ! 
+ -> this was true to we we right ! ! ! ! 
+
+Sample 981. ugh , i hate this place . 
+ -> wow hate , i hate place place . 
+
+Sample 982. the service is snotty and slow . 
+ -> the service is fast and and pleasant pleasant . 
+
+Sample 983. the food is forgettable and the menu sparse . 
+ -> the food is authentic and the sparse sounds . 
+
+Sample 984. i tried the seared ahi tuna . 
+ -> i received the seared ahi tuna cake . 
+
+Sample 985. but do n't go for the menu . 
+ -> but for go menu menu spot menu . 
+
+Sample 986. it is n't a bad experience . 
+ -> it is a a must experience experience . 
+
+Sample 987. maybe it 's just the built in crowd . 
+ -> it 's the the the the relaxed crowd . 
+
+Sample 988. crab fries , naturally . 
+ -> fries formal , naturally . 
+
+Sample 989. was n't the best either . 
+ -> best the best best best . 
+
+Sample 990. service , small selection and mediocre food . 
+ -> small selection , small and exceptional service service . 
+
+Sample 991. not a degree above room temp . 
+ -> a a degree holiday touch 1st southwest . 
+
+Sample 992. my reuben tasted like eating a salt stick . 
+ -> my husband thai burger tasted a a salt . 
+
+Sample 993. first of all , our service was awful . 
+ -> all of our our , service service was . 
+
+Sample 994. i was meeting up with _num_ other people there . 
+ -> i was with meeting with with with and people . 
+
+Sample 995. i ordered a hamburger with fries for $ _num_ . 
+ -> i ordered a a classic with a with with . 
+
+Sample 996. it took over _num_ minutes to get the order . 
+ -> it took the the the drive to the . . 
+
+Sample 997. awful place , to bad i was looking forward . 
+ -> place place place , place place place forward place . 
+
+Sample 998. not even one piece . 
+ -> even adding here here . 
+
+Sample 999. service was slow for soup and a salad . 
+ -> service for friendly friendly and and service service . 
