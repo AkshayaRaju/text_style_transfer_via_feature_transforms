@@ -209,13 +209,14 @@ if __name__ == '__main__':
             #print(sess.run(model.G_MLE.get_trainable_weights()[i]))
         print(sess.run(model.G_MLE.get_trainable_weights()[1]))
 
-    
+    while(True):
+        pass
     vec1=sess.run(model.G_MLE.encoder_state,feed_dict={model.G_MLE.data:yelp_data.data1}) #seq_num * dim_h
     vec2=sess.run(model.G_MLE.encoder_state,feed_dict={model.G_MLE.data:yelp_data.data2})
 
     trans_vec1=transfer(vec1,vec2).tolist()
     trans_vec1 = trans_vec1[:1000]
-    trans_seq=sess.run(model.G_MLE.sample1,feed_dict={model.G_MLE.hidden_state_in:vec1[:1000]})
+    trans_seq=sess.run(model.G_MLE.sample1,feed_dict={model.G_MLE.hidden_state_in:vec1[:20]})
     data1 = [[yelp_data.id2word[i] for i in sent] for sent in yelp_data.data1]
     data1 = strip_eos(strip_pad(data1))
     trans_seq = [[yelp_data.id2word[i] for i in sent] for sent in trans_seq]
