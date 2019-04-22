@@ -8,6 +8,7 @@ from gensim.models import word2vec
 import numpy as np
 from functools import reduce
 import random
+from nltk.translate import bleu_score
 
 class Util(object):
     def __init__(self, path):
@@ -130,6 +131,15 @@ def train_embeddings(sents, embedding_size, path, min_count = 3):
     model.wv.save_word2vec_format(path)
 
 
+
+
+
+
+def write_lines(path, lines):
+    f = open(path, 'w+')
+    for line in lines:
+        f.write(line + '\n')
+    f.close()
 
 
 

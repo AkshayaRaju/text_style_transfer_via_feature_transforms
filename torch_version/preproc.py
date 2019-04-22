@@ -15,6 +15,7 @@ def normalize_str(s):
     # s = re.sub(r"(\.\.\.)", r"\1 ", s)
     # s = re.sub(r"([.?!])", r" \1", s) # replace "." with " ." and so on
     s = re.sub(r"[^a-zA-Z.?!\"_<>]+", r" ", s)
+    s = re.sub(r"<unk>", "<UNK>", s) # make the unk upper case again
     s = re.sub(r"\s+", r" ", s).strip()
     return s
 

@@ -9,18 +9,18 @@ from functools import reduce
 import random
 
 
-PATH = "/home/mlsnrs/data/pxd/text_style_transfer_via_feature_transforms/data/fake_yelp/"
+PATH = "/home/morino/code/text_style_transfer_via_feature_transforms/data/fake_yelp/"
 VOCAB_BUILD = False
 MAX_LEN = 10
 MIN_COUNT = 3
-MAX_EPOCH = 3
-EMBEDDING_SIZE = 764
+MAX_EPOCH = 4
+EMBEDDING_SIZE = 500
 EMBEDDING_PATH = "save/emb_{}.txt".format(EMBEDDING_SIZE)
 BATCH_SIZE = 256
 USE_PRETRAINED = True
 SAVE_PATH = "save/model_{}_{}".format(MAX_EPOCH, EMBEDDING_SIZE)
 TRAIN = False
-DEVICE = torch.device('cuda:1')
+DEVICE = torch.device('cuda:0')
     
 
 
@@ -43,12 +43,14 @@ TEST = {
 #     "TEST_NEG": os.path.join(PATH, "sentiment.test.0")
 # }
 
-from util import build_corpus_basic, Util, load_embeddings, train_embeddings
+from util import build_corpus_basic, Util, load_embeddings, train_embeddings, write_lines
 # from feeder import AutoFeeder
 from seq_auto import SeqTranslator
 
 
 UTIL = Util(PATH)
+
+
 
 
     
@@ -79,9 +81,9 @@ def _transfer(vec1,vec2):#seq_num * dim_h
     evecs1 = evecs1[:,:len(eig_s)]
 
 
-    print(eig_s.shape)
-    print(evecs1.shape)
-    print(vec1.shape)
+    # print(eig_s.shape)
+    # print(evecs1.shape)
+    # print(vec1.shape)
 
     evals2,evecs2 = eig(covar2)
     eig_t = evals2
@@ -91,7 +93,7 @@ def _transfer(vec1,vec2):#seq_num * dim_h
     evecs2 = evecs2[:,:len(eig_t)]
     
     
-    print(evals2)
+    # print(evals2)
     # evals2=np.diag(np.power(np.abs(evals2),1/2))
     fc = evecs1 @ np.diag(eig_s) @ evecs1.T @ vec1 # dim_h * seq_num
     # print(fc.shape)
@@ -119,7 +121,7 @@ def interpolation(sent1, sent2, emb1, emb2, translator, device = DEVICE):
 
 
         
-def transfer(content_sents, style_sents, translator, device = DEVICE, has_cipher = False, cipher = None):
+def transfer(content_sents, style_sents, translator, device = DEVICE, has_cipher = False, cipher = None, reverse = True):
     content_sents, content_embs = translator.encode(device, content_sents)
     _, style_embs = translator.encode(device, style_sents)
     # do transfer
@@ -128,6 +130,7 @@ def transfer(content_sents, style_sents, translator, device = DEVICE, has_cipher
     # accuracy = 0.0
     correct = 0
     total = 0
+    decipher_result = [] # temp
     
     for i, sent in enumerate(out):
         acc = 0
@@ -135,16 +138,25 @@ def transfer(content_sents, style_sents, translator, device = DEVICE, has_cipher
         if(not has_cipher):
             sys.stdout.write(out[i] + '\n') # simply output
         else:
+            # cipher task
+            # if(not reverse):
+            #     sys.stdout.write(" ".join([x.split('_')[0] for x in sent]) + '\n')
+            # else:
+            #     sys.stdout.write(" ".join(sent) + '\n')
             for j in range(min(len(content_sents[i]), len(sent))):
-                if(sent[j].split('_')[-1] == content_sents[i][j]):
-                    acc += 1
-                    correct += 1
-            if(acc > 0):
-                print("{}. {} => {}".format(i, " ".join(content_sents[i]), " ".join([x.split('_')[-1] for x in sent])))
+                if(not reverse):
+                    if('_' in sent[j] and sent[j].split('_')[-1] == content_sents[i][j]):
+                        acc += 1
+                        correct += 1
+                else:
+                    if('_' in content_sents[i][j] and sent[j] == content_sents[i][j].split('_')[-1]):
+                        acc += 1
+                        correct += 1                    
             total += 1
-
-    
+            
     if has_cipher: print("Ratio of Correct Token: {}".format(float(correct) / total))
+    return out
+
             
             
             
@@ -169,7 +181,7 @@ def cipher_gen(sents, vocab):
 
 
 
-
+# generate the decipher task data
 def decipher_main():
     UTIL.bar("BUILD DATASET")
     PREFIX = 'decipher/'
@@ -211,12 +223,13 @@ def main():
     else:
         UTIL.bar("LOAD DATASET")
         vocab, sents_dict = UTIL.load("vocab.p"), UTIL.load("sents_dict.p")
-        cipher = UTIL.load("decipher/cipher.p")
+
         # recover sents from sents_dict
         sents = list(reduce(lambda x, y: x+y, [s for s in sents_dict.values()]))
         # add the word embedding loading code
         UTIL.bar("LOAD EMBEDDING")
 
+    cipher = UTIL.load("decipher/cipher.p")
     if(USE_PRETRAINED):
         embeddings, EMBEDDING_SIZE = load_embeddings(vocab, EMBEDDING_PATH, EMBEDDING_SIZE)
 
@@ -265,11 +278,26 @@ def main():
     # interpolation(sents[0], sents[1], embs[0, :], embs[1, :], translator, device = DEVICE)
 
     SAMPLE_SIZE = 10000
-    pos_sent = [random.choice(test_dict['TEST_POS']) for i in range(SAMPLE_SIZE)]
-    neg_sent = [random.choice(test_dict['TEST_NEG']) for i in range(SAMPLE_SIZE)]
-    transfer(pos_sent, neg_sent, translator, DEVICE, has_cipher = True, cipher = cipher)
+    pos_sent = [random.choice(test_dict['TEST_NEG']) for i in range(SAMPLE_SIZE)]
+    neg_sent = [random.choice(test_dict['TEST_POS']) for i in range(SAMPLE_SIZE)]
+    deciphered = transfer(pos_sent, neg_sent, translator, DEVICE, has_cipher = True, cipher = cipher, reverse = True)
+
+    neg_sent = [" ".join(seq) for seq in neg_sent]
+
+    write_lines(os.path.join(PATH, 'hypothesis.txt'), deciphered)
+    write_lines(os.path.join(PATH, 'reference.txt'), neg_sent)
+
+    # calculate the bleu value on the fly
+    from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
+    chencherry = SmoothingFunction()
+
+    hypothesis_tokens = [line.split(' ') for line in deciphered]
+    reference_tokens = [line.split(' ') for line in neg_sent]
+    # print(len(reference_tokens))
+    # print(len(hypothesis_tokens))
+    # bleu = corpus_bleu([[line.split(' ') for line in neg_sent[:1000]] for i in range(SAMPLE_SIZE)], hypothesis_tokens, smoothing_function = chencherry.method4)
     
-    
+    # print("BLEU: {}".format(bleu * 100))
     
 
 if __name__ == '__main__':
