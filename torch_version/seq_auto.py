@@ -154,7 +154,7 @@ class SeqTranslator(Module):
                 # show some samples
                 print("Correct Recovery Ratio: {:.3f}".format(self.recovery_accuracy(device)))
                 # self.test_with_samples(device, [random.choice(dev_set) for i in range(4)])
-                self.teacher_force_ratio -= 0.05
+                self.teacher_force_ratio -= 0.03 # 0.05
                 
 
     def recovery_accuracy(self, device, verbose = True):

@@ -10,18 +10,13 @@ class Vocab(object):
         self.name = name
         self.word2id = dict()
         self.id2word = dict()
-        self.vocab_size = 3
+        self.vocab_size = 4
         self.word_counter = dict()
         self.trimmed = False
-        
-        # insert the aux. tokens
-        self.word2id["<PAD>"] = PAD_token
-        self.word2id["<BOS>"] = BOS_token
-        self.word2id["<EOS>"] = EOS_token
-
-        self.id2word[PAD_token] = "<PAD>"
-        self.id2word[BOS_token] = "<BOS>"
-        self.id2word[EOS_token] = "<EOS>"
+        self.word2id = {"<PAD>":PAD_token, "<BOS>": BOS_token, "<EOS>": EOS_token, '<UNK>': UNK_token}
+        self.id2word = {PAD_token: "<PAD>", BOS_token:"<BOS>", EOS_token:"<EOS>", UNK_token: '<UNK>'}
+        self.vocab_size = 4
+  
 
     # given a list of int tokens, parse out the underlying sentence until 
     def parse(self, tokens):

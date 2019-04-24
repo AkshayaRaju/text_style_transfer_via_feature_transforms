@@ -9,32 +9,36 @@ from functools import reduce
 import random
 
 
-PATH = "/home/morino/code/text_style_transfer_via_feature_transforms/data/fake_yelp/"
-VOCAB_BUILD = False
-MAX_LEN = 10
-MIN_COUNT = 3
-MAX_EPOCH = 4
-EMBEDDING_SIZE = 500
-EMBEDDING_PATH = "save/emb_{}.txt".format(EMBEDDING_SIZE)
-BATCH_SIZE = 256
-USE_PRETRAINED = True
-SAVE_PATH = "save/model_{}_{}".format(MAX_EPOCH, EMBEDDING_SIZE)
-TRAIN = False
-DEVICE = torch.device('cuda:0')
-    
 
+# PATH = "/home/mlsnrs/data/pxd/text_style_transfer_via_feature_transforms/data/yelp/"
+# PATH = "/home/morino/code/text_style_transfer_via_feature_transforms/data/fake_yelp/"
+
+
+
+
+PATH = "/home/mlsnrs/data/pxd/text_style_transfer_via_feature_transforms/data/shake/"
+VOCAB_BUILD = True
+MAX_LEN = 15
+MIN_COUNT = 2
+MAX_EPOCH = 30
+EMBEDDING_SIZE = 300
+EMBEDDING_PATH = "save/emb_{}.txt".format(EMBEDDING_SIZE)
+BATCH_SIZE = 200
+USE_PRETRAINED = False
+SAVE_PATH = "save/model_{}".format(EMBEDDING_SIZE)
+TRAIN = True
+DEVICE = torch.device('cuda:1')
 
 DATASET = {
-    "POS": os.path.join(PATH, "sentiment.train.1"),
-    "NEG": os.path.join(PATH, "sentiment.train.r")
+    "POS": os.path.join(PATH, "train.original.nltktok"),
+    "NEG": os.path.join(PATH, "train.modern.nltktok")
 
 }
 
-
 # for decipherment
 TEST = {
-    "TEST_POS" :  os.path.join(PATH, "sentiment.train.1"),
-    "TEST_NEG" :  os.path.join(PATH, "sentiment.train.r")
+    "TEST_POS" :  os.path.join(PATH, "test.original.nltktok"),
+    "TEST_NEG" :  os.path.join(PATH, "test.modern.nltktok")
 
 }
 
@@ -136,13 +140,8 @@ def transfer(content_sents, style_sents, translator, device = DEVICE, has_cipher
         acc = 0
         sent = sent.split(' ')
         if(not has_cipher):
-            sys.stdout.write(out[i] + '\n') # simply output
+            print("{} -> {}".format(" ".join(content_sents[i]), out[i])) # simply output
         else:
-            # cipher task
-            # if(not reverse):
-            #     sys.stdout.write(" ".join([x.split('_')[0] for x in sent]) + '\n')
-            # else:
-            #     sys.stdout.write(" ".join(sent) + '\n')
             for j in range(min(len(content_sents[i]), len(sent))):
                 if(not reverse):
                     if('_' in sent[j] and sent[j].split('_')[-1] == content_sents[i][j]):
@@ -229,7 +228,10 @@ def main():
         # add the word embedding loading code
         UTIL.bar("LOAD EMBEDDING")
 
-    cipher = UTIL.load("decipher/cipher.p")
+    print("TRAIN POS SIZE:{}".format(len(sents_dict["POS"])))
+    print("TRAIN NEG SIZE:{}".format(len(sents_dict["NEG"])))
+    # cipher = UTIL.load("decipher/cipher.p")
+    cipher = None
     if(USE_PRETRAINED):
         embeddings, EMBEDDING_SIZE = load_embeddings(vocab, EMBEDDING_PATH, EMBEDDING_SIZE)
 
@@ -277,10 +279,10 @@ def main():
     # out = translator.decode(embs[:, :], device)
     # interpolation(sents[0], sents[1], embs[0, :], embs[1, :], translator, device = DEVICE)
 
-    SAMPLE_SIZE = 10000
-    pos_sent = [random.choice(test_dict['TEST_NEG']) for i in range(SAMPLE_SIZE)]
-    neg_sent = [random.choice(test_dict['TEST_POS']) for i in range(SAMPLE_SIZE)]
-    deciphered = transfer(pos_sent, neg_sent, translator, DEVICE, has_cipher = True, cipher = cipher, reverse = True)
+    SAMPLE_SIZE = 50
+    pos_sent = [random.choice(test_dict['TEST_POS']) for i in range(SAMPLE_SIZE)]
+    neg_sent = [random.choice(test_dict['TEST_NEG']) for i in range(SAMPLE_SIZE)]
+    deciphered = transfer(pos_sent, neg_sent, translator, DEVICE, has_cipher = False, cipher = cipher, reverse = True)
 
     neg_sent = [" ".join(seq) for seq in neg_sent]
 
@@ -298,6 +300,7 @@ def main():
     # bleu = corpus_bleu([[line.split(' ') for line in neg_sent[:1000]] for i in range(SAMPLE_SIZE)], hypothesis_tokens, smoothing_function = chencherry.method4)
     
     # print("BLEU: {}".format(bleu * 100))
+    
     
 
 if __name__ == '__main__':

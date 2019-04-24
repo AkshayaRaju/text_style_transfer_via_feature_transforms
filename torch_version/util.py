@@ -44,7 +44,7 @@ def _build_vocab_(sents, min_count, name):
     return vocab
 
 # build vocabulary
-def build_corpus_basic(paths_dict, max_len, min_count, vocab_ = None, has_vocab = False, name = "anonymous", min_len = 3):
+def build_corpus_basic(paths_dict, max_len, min_count, vocab_ = None, has_vocab = False, name = "anonymous", min_len = 4):
     """
     @param paths: a dictionary [(ds_name: path)]
     @param max_len: the maximal length a sentence coule be
