@@ -123,8 +123,8 @@ def load_embeddings(vocab, path, embedding_size):
     print("HIT RATIO:{}".format(float(HIT)/vocab.vocab_size))
     return embeddings, dim_e
 
-def train_embeddings(sents, embedding_size, path, min_count = 3):
-    model = word2vec.Word2Vec(iter = 5, size = embedding_size, min_count = min_count, workers = 10)
+def train_embeddings(sents, embedding_size, path, min_count = 3, iter_ = 100):
+    model = word2vec.Word2Vec(iter = iter_, size = embedding_size, min_count = min_count, workers = 10)
     model.build_vocab(sents)
     print(model.corpus_count)
     model.train(sents, total_examples=model.corpus_count,epochs=model.epochs)

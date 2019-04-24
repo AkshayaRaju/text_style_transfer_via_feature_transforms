@@ -7,45 +7,50 @@ import os
 import sys
 from functools import reduce
 import random
-
-
+from torch.nn import Module
+from torch.nn.functional import l1_loss, mse_loss
+from torch.optim import SGD, Adam
 
 # PATH = "/home/mlsnrs/data/pxd/text_style_transfer_via_feature_transforms/data/yelp/"
 # PATH = "/home/morino/code/text_style_transfer_via_feature_transforms/data/fake_yelp/"
 
+PREFIX = "/home/morino/code/"
+NAME = "YELP"
+
+PATH = PREFIX + "text_style_transfer_via_feature_transforms/data/{}/".format(NAME.lower())
 
 
-
-PATH = "/home/mlsnrs/data/pxd/text_style_transfer_via_feature_transforms/data/shake/"
-VOCAB_BUILD = True
+VOCAB_BUILD = False
 MAX_LEN = 15
-MIN_COUNT = 2
-MAX_EPOCH = 30
-EMBEDDING_SIZE = 300
+MIN_COUNT = 3
+MAX_EPOCH = 10
+EMBEDDING_SIZE = 500
 EMBEDDING_PATH = "save/emb_{}.txt".format(EMBEDDING_SIZE)
 BATCH_SIZE = 200
 USE_PRETRAINED = False
-SAVE_PATH = "save/model_{}".format(EMBEDDING_SIZE)
+SAVE_PATH = "save/{}_model_{}".format(NAME, EMBEDDING_SIZE)
 TRAIN = True
-DEVICE = torch.device('cuda:1')
+DEVICE = torch.device('cuda:0')
 
-DATASET = {
-    "POS": os.path.join(PATH, "train.original.nltktok"),
-    "NEG": os.path.join(PATH, "train.modern.nltktok")
+if(NAME == "SHAKE"):
+    DATASET = {
+        "POS": os.path.join(PATH, "train.original.nltktok"),
+        "NEG": os.path.join(PATH, "train.modern.nltktok")
+    }
+    TEST = {
+        "TEST_POS" :  os.path.join(PATH, "test.original.nltktok"),
+        "TEST_NEG" :  os.path.join(PATH, "test.modern.nltktok")
+    }
+elif(NAME == "YELP"):
+    DATASET = {
+        "POS": os.path.join(PATH, "sentiment.train.1"),
+        "NEG": os.path.join(PATH, "sentiment.train.0")
+    }
+    TEST = {
+        "TEST_POS" :  os.path.join(PATH, "sentiment.test.1"),
+        "TEST_NEG" :  os.path.join(PATH, "sentiment.test.0")
+    }
 
-}
-
-# for decipherment
-TEST = {
-    "TEST_POS" :  os.path.join(PATH, "test.original.nltktok"),
-    "TEST_NEG" :  os.path.join(PATH, "test.modern.nltktok")
-
-}
-
-# TEST = {
-#     "TEST_POS": os.path.join(PATH, "sentiment.test.1"),
-#     "TEST_NEG": os.path.join(PATH, "sentiment.test.0")
-# }
 
 from util import build_corpus_basic, Util, load_embeddings, train_embeddings, write_lines
 # from feeder import AutoFeeder
@@ -71,6 +76,7 @@ def _transfer(vec1,vec2):#seq_num * dim_h
 
     n = vec1.shape[1]
     covar1=np.dot(vec1,vec1.T)/(n-1)
+    print(covar1.shape)
     vec2=np.transpose(vec2)
     covar2=np.dot(vec2,vec2.T)/(n-1)
     #print(covar2)
@@ -108,6 +114,63 @@ def _transfer(vec1,vec2):#seq_num * dim_h
     return fcs.T+m2
 
 
+class Mat(Module):
+    def __init__(self, channel_num, sample_num):
+        super(Mat, self).__init__()
+
+        self.channel_num = channel_num
+        self.sample_num = sample_num
+        self.A = torch.nn.Parameter(torch.tensor(np.random.randn(self.channel_num, self.channel_num)*0.1, dtype = torch.float32))
+
+    # do embedding level style transfer with the learned matrix
+    def forward(self, x):
+        return self.A.matmul(x)
+    
+    def loss(self, F, G):
+        transfered_gram = (self.A.matmul(F).matmul(F.transpose(0, 1)).matmul(self.A.transpose(0, 1)))/(self.sample_num - 1)
+        original_gram = G.matmul(G.transpose(0,1))/(self.sample_num - 1)
+        var_loss = mse_loss(transfered_gram, original_gram, reduction = "mean")
+        content_loss = l1_loss(self.A.matmul(F), F, reduction = 'mean')
+        # print(content_loss)
+        # print(var_loss)
+        la = 0.005
+        return var_loss + la * content_loss
+
+
+# a learning way for style transfer 
+def learning_transfer(content_sents, style_sents, translator, device = DEVICE):
+    content_sents, vec1 = translator.encode(device, content_sents)
+    _, vec2 = translator.encode(device, style_sents)
+    n = vec1.shape[1]
+    m1 = np.mean(vec1, axis = 0)
+    m2 = np.mean(vec2, axis = 0)
+    F = (vec1 - m1).T
+    G = (vec2 - m2).T
+    F = torch.tensor(F).to(device)
+    G = torch.tensor(G).to(device)
+    # to minimize ||AFA.T - G||
+    mat = Mat(F.shape[0], F.shape[1]).to(device)
+    solver = Adam(mat.parameters(), lr = 0.01)
+    tol = 0.0001
+    for i in range(1000):
+        solver.zero_grad()
+        loss = mat.loss(F, G)
+        loss.backward()
+        solver.step()
+        if(loss.item() < tol):
+            break
+        print("Gram Loss: {}".format(loss.item()))
+    cpu = torch.device('cpu')
+    F_prime = mat(F).to(cpu).detach().numpy().T + m2
+    out = translator.decode(F_prime, device)
+    for i, sent in enumerate(out):
+        print("Sample A.{}. {} -> {}".format(i+1, " ".join(content_sents[i]), out[i])) # simply output
+    return mat
+    
+    
+    
+    
+
 # user interface
 def interpolation(sent1, sent2, emb1, emb2, translator, device = DEVICE):
     # do linear interpolation
@@ -140,7 +203,7 @@ def transfer(content_sents, style_sents, translator, device = DEVICE, has_cipher
         acc = 0
         sent = sent.split(' ')
         if(not has_cipher):
-            print("{} -> {}".format(" ".join(content_sents[i]), out[i])) # simply output
+            print("Sample B.{}. {} -> {}".format(i+1, " ".join(content_sents[i]), out[i])) # simply output
         else:
             for j in range(min(len(content_sents[i]), len(sent))):
                 if(not reverse):
@@ -215,7 +278,7 @@ def main():
                                          min_count = MIN_COUNT,
                                          name = DATASET)
         UTIL.bar("TRAIN EMBEDDING")
-        train_embeddings(sents, EMBEDDING_SIZE, EMBEDDING_PATH, MIN_COUNT)
+        train_embeddings(sents, EMBEDDING_SIZE, EMBEDDING_PATH, MIN_COUNT, iter_ = 200)
         UTIL.dump(vocab, "vocab.p")
         UTIL.dump(sents_dict, "sents_dict.p")
         # sys.exit(0)
@@ -279,22 +342,23 @@ def main():
     # out = translator.decode(embs[:, :], device)
     # interpolation(sents[0], sents[1], embs[0, :], embs[1, :], translator, device = DEVICE)
 
-    SAMPLE_SIZE = 50
+    SAMPLE_SIZE = 1000
     pos_sent = [random.choice(test_dict['TEST_POS']) for i in range(SAMPLE_SIZE)]
     neg_sent = [random.choice(test_dict['TEST_NEG']) for i in range(SAMPLE_SIZE)]
+    
     deciphered = transfer(pos_sent, neg_sent, translator, DEVICE, has_cipher = False, cipher = cipher, reverse = True)
-
+    learning_transfer(pos_sent, neg_sent, translator, DEVICE)
     neg_sent = [" ".join(seq) for seq in neg_sent]
 
-    write_lines(os.path.join(PATH, 'hypothesis.txt'), deciphered)
-    write_lines(os.path.join(PATH, 'reference.txt'), neg_sent)
+    # write_lines(os.path.join(PATH, 'hypothesis.txt'), deciphered)
+    # write_lines(os.path.join(PATH, 'reference.txt'), neg_sent)
 
-    # calculate the bleu value on the fly
-    from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
-    chencherry = SmoothingFunction()
+    # # calculate the bleu value on the fly
+    # from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
+    # chencherry = SmoothingFunction()
 
-    hypothesis_tokens = [line.split(' ') for line in deciphered]
-    reference_tokens = [line.split(' ') for line in neg_sent]
+    # hypothesis_tokens = [line.split(' ') for line in deciphered]
+    # reference_tokens = [line.split(' ') for line in neg_sent]
     # print(len(reference_tokens))
     # print(len(hypothesis_tokens))
     # bleu = corpus_bleu([[line.split(' ') for line in neg_sent[:1000]] for i in range(SAMPLE_SIZE)], hypothesis_tokens, smoothing_function = chencherry.method4)
